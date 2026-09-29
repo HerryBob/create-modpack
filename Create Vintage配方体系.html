@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Create Vintage · 配方体系总览</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#F4F3EE; font-family:'PingFang SC','Microsoft YaHei','Segoe UI',Arial,sans-serif; color:#1A1B1C; }
+  .page { width:1000px; margin:0 auto; padding:28px 24px 40px; }
+  h1 { font-size:24px; font-weight:700; }
+  .sub { font-size:12.5px; color:#6B7280; margin-top:6px; }
+  .divider { border:none; border-top:1px solid #E4E3DD; margin:16px 0 20px; }
+  h2 { font-size:16px; font-weight:700; margin:26px 0 12px; }
+  .concl { background:#FFFFFF; border:1px solid rgba(0,0,0,0.08); border-radius:14px; padding:18px 22px; margin-top:14px; }
+  .concl p { font-size:13px; line-height:1.85; color:#374151; }
+  .concl b { color:#1A1B1C; }
+  .warn { background:#FDF6F6; border:1px solid #F0D0D0; border-radius:10px; padding:10px 14px; margin-top:10px; font-size:12.5px; color:#8A3B3B; line-height:1.75; }
+  .ok { background:#F0F8F3; border:1px solid #CDE6D5; border-radius:10px; padding:10px 14px; margin-top:10px; font-size:12.5px; color:#2F6B4A; line-height:1.75; }
+  .tag { display:inline-block; font-size:11.5px; font-weight:600; padding:2px 10px; border-radius:999px; }
+  .tag.early { background:#E8F6F1; color:#1A6E4A; }
+  .tag.mid { background:#FBF1DE; color:#8A6A1A; }
+  .tag.ext { background:#ECEEFB; color:#3E4A8A; }
+  table { width:100%; border-collapse:collapse; background:#fff; border:1px solid rgba(0,0,0,.08); border-radius:12px; overflow:hidden; font-size:12.5px; }
+  th { background:#F7F7F4; text-align:left; padding:9px 12px; font-weight:700; border-bottom:1px solid #E4E3DD; }
+  td { padding:9px 12px; border-bottom:1px solid #F0EFEA; vertical-align:top; line-height:1.6; }
+  tr:last-child td { border-bottom:none; }
+  code { background:#F1F0EB; border-radius:4px; padding:1px 6px; font-size:11.5px; font-family:Consolas,monospace; color:#374151; }
+  .foot { margin-top:18px; font-size:11px; color:#6B7280; line-height:1.7; }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Create Vintage（古典加工）· 配方体系总览</h1>
+  <div class="sub">定位：与机械动力同级 · 阶段一机器线 · 材料自举链 + 8 台机器 + 5 个零件 · KubeJS 实现</div>
+  <hr class="divider">
+
+  <svg viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block;">
+    <text x="20" y="26" font-size="16" font-weight="700" fill="#1A1B1C">材料自举链（早期纯铁 / 安山合金 / 木）</text>
+
+    <!-- row 1: 原料 -->
+    <rect x="20" y="50" width="120" height="44" rx="8" fill="#C9C9C9"/>
+    <text x="80" y="77" font-size="12.5" font-weight="600" fill="#1A1B1C" text-anchor="middle">铁锭</text>
+
+    <rect x="220" y="50" width="140" height="44" rx="8" fill="#8FAECB"/>
+    <text x="290" y="70" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">安山合金 ×4</text>
+    <text x="290" y="86" font-size="10.5" fill="#E8EFF7" text-anchor="middle">+ 铁块</text>
+
+    <rect x="440" y="50" width="130" height="44" rx="8" fill="#8A8FA3"/>
+    <text x="505" y="77" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">安山机壳</text>
+
+    <!-- arrows row1 -->
+    <text x="155" y="76" font-size="16" fill="#9AA0A6">→</text>
+    <text x="365" y="76" font-size="16" fill="#9AA0A6">→</text>
+
+    <!-- machines -->
+    <rect x="20" y="130" width="120" height="44" rx="8" fill="#5B7FA3"/>
+    <text x="80" y="150" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">轧机</text>
+    <text x="80" y="166" font-size="10" fill="#DCE6F2" text-anchor="middle">rolling</text>
+
+    <rect x="220" y="130" width="140" height="44" rx="8" fill="#5B7FA3"/>
+    <text x="290" y="150" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">卷簧机轮</text>
+    <text x="290" y="166" font-size="10" fill="#DCE6F2" text-anchor="middle">序列组装</text>
+
+    <rect x="440" y="130" width="130" height="44" rx="8" fill="#5B7FA3"/>
+    <text x="505" y="150" font-size="12" font-weight="600" fill="#FFFFFF" text-anchor="middle">卷簧机</text>
+    <text x="505" y="166" font-size="10" fill="#DCE6F2" text-anchor="middle">机壳+轮子</text>
+
+    <path d="M80 94 L80 126" stroke="#9AA0A6" stroke-width="1.5" marker-end="url(#arr)"/>
+    <path d="M290 94 L290 126" stroke="#9AA0A6" stroke-width="1.5" marker-end="url(#arr)"/>
+    <path d="M505 94 L505 126" stroke="#9AA0A6" stroke-width="1.5" marker-end="url(#arr)"/>
+
+    <!-- products -->
+    <rect x="20" y="210" width="120" height="44" rx="8" fill="#E4A33D"/>
+    <text x="80" y="230" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">vintage 铁棒</text>
+    <text x="80" y="246" font-size="10" fill="#FBEBCB" text-anchor="middle">铁锭 → 1:1</text>
+
+    <rect x="440" y="210" width="130" height="44" rx="8" fill="#E4A33D"/>
+    <text x="505" y="230" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">铁弹簧</text>
+    <text x="505" y="246" font-size="10" fill="#FBEBCB" text-anchor="middle">铁棒 → 卷簧</text>
+
+    <path d="M80 174 L80 206" stroke="#9AA0A6" stroke-width="1.5" marker-end="url(#arr)"/>
+    <path d="M505 174 L505 206" stroke="#9AA0A6" stroke-width="1.5" marker-end="url(#arr)"/>
+    <path d="M140 232 L436 232" stroke="#9AA0A6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+
+    <!-- stage machines -->
+    <rect x="640" y="50" width="320" height="204" rx="12" fill="#F7F7F7" stroke="#E4E3DD"/>
+    <text x="660" y="74" font-size="13" font-weight="700" fill="#1A1B1C">早期机器（铁弹簧为核心）</text>
+    <text x="660" y="96" font-size="11.5" fill="#374151">振动台 · 离心机 · 弯曲压机 · 落锤</text>
+    <text x="660" y="116" font-size="11.5" fill="#374151">+ 卷簧机自身 = 全部需要铁弹簧</text>
+    <text x="660" y="148" font-size="13" font-weight="700" fill="#1A1B1C">中期机器（黄铜 / 精密机构）</text>
+    <text x="660" y="170" font-size="11.5" fill="#374151">真空室 · 车床 · 激光</text>
+    <text x="660" y="190" font-size="11.5" fill="#374151">黄铜机壳 + 精密机构 = Create 中期门槛</text>
+    <text x="660" y="220" font-size="11" fill="#6B7280">钢块为 overgeared 锻造线（车床/落锤底座）</text>
+
+    <defs>
+      <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#9AA0A6"/>
+      </marker>
+    </defs>
+  </svg>
+
+  <h2>机器配方（8 台）</h2>
+  <table>
+    <tr><th style="width:150px">机器</th><th style="width:110px">方式</th><th style="width:70px">阶段</th><th>材料 / 布局</th></tr>
+    <tr><td><b>振动台</b><br>vibrating_table</td><td>动力合成 4×4</td><td><span class="tag early">早期</span></td><td>木台阶 + 铁弹簧×2 + 活塞 + 精密机构</td></tr>
+    <tr><td><b>离心机</b><br>centrifuge</td><td>动力合成 4×3</td><td><span class="tag early">早期</span></td><td>安山机壳 + 原木 + 铁弹簧 + 搅拌器 + 齿轮</td></tr>
+    <tr><td><b>弯曲压机</b><br>curving_press</td><td>worldcrafting</td><td><span class="tag early">早期</span></td><td>安山机壳底 + 铁弹簧×2 + 传动轴顶 · 锻造锤右键</td></tr>
+    <tr><td><b>落锤</b><br>helve_hammer</td><td>动力合成 5×3</td><td><span class="tag ext">锻造线</span></td><td>钢块 + 原木 + 铁弹簧 + 安山机壳 + 传动轴</td></tr>
+    <tr><td><b>真空室</b><br>vacuum_chamber</td><td>动力合成 4×3</td><td><span class="tag mid">中期</span></td><td>铜机壳 + 玻璃 + 精密机构 + 流体管 + 齿轮</td></tr>
+    <tr><td><b>车床</b><br>lathe</td><td>动力合成 5×3</td><td><span class="tag mid">中期</span></td><td>钢块 + 铁弹簧 + 安山合金 + 安山机壳 + 传动轴 + 精密机构</td></tr>
+    <tr><td><b>激光</b><br>laser</td><td>动力合成 4×4</td><td><span class="tag mid">中期</span></td><td>黄铜机壳 + 红石块 + 精密机构 + 石英 + 激光头</td></tr>
+  </table>
+
+  <h2>零件配方（5 个）</h2>
+  <table>
+    <tr><th style="width:170px">零件</th><th style="width:110px">方式</th><th>材料 / 流程</th></tr>
+    <tr><td><b>铁棒</b> iron_rod</td><td>轧机 rolling</td><td>铁锭 → vintage 铁棒 ×1（原卷簧机配方已删）</td></tr>
+    <tr><td><b>铁弹簧</b> iron_spring</td><td>卷簧机（模组原生）</td><td>vintage 铁棒 → 铁弹簧 ×1 · 150t</td></tr>
+    <tr><td><b>卷簧机轮</b><br>spring_coiling_machine_wheel</td><td>序列组装</td><td>安山合金起始 → 部署合金×3 + 铁块 → 压制</td></tr>
+    <tr><td><b>激光头</b> laser_item</td><td>序列组装（新）</td><td>铁锭起始 → 部署石英×2 + 红石×2 → 压制（模组原本无配方）</td></tr>
+    <tr><td><b>落锤槽盖</b><br>helve_hammer_slot_cover</td><td>序列组装</td><td>黄铜粒起始 → 部署黄铜粒×2 → 压制</td></tr>
+    <tr><td><b>配方卡</b> recipe_card</td><td>序列组装</td><td>黄铜板 · 循环 3 次：部署红石 → 压制 → vintage 抛光</td></tr>
+  </table>
+
+  <div class="concl">
+    <h2>阶段评估：自举链成立 <span class="tag early">合理</span></h2>
+    <p><b>材料链闭环：</b>铁锭 →（轧机）→ vintage 铁棒 →（卷簧机）→ 铁弹簧 → 全部早期机器。轧机本身用 worldcrafting（机壳+传动轴×2）解锁，整条链不碰黄铜、不碰精密机构，符合"与机械动力同级、阶段一"定位。</p>
+    <p><b>中期门槛清晰：</b>黄铜机壳 + 精密机构只出现在真空室 / 车床 / 激光，与 Create 中期节点（吹炼炉出黄铜）对齐。激光头要石英 = 下界材料，与激光机的中期定位匹配。</p>
+    <div class="warn">
+      <b>两个待调点：</b><br>
+      ① <b>振动台加了精密机构</b>（<code>SAS</code> 行）—— 振动台其余材料全是木/活塞/弹簧，精密机构（黄铜时代）会把它从"开局第三天"卡到中期。若坚持纯阶段一，建议换成传动轴或弹簧。<br>
+      ② <b>落锤槽盖用黄铜粒×3</b> —— 黄铜需吹炼炉，落锤本体却是早期机器，做它的配件反而要等黄铜。若想更早，可改铁粒序列组装。
+    </div>
+    <div class="ok">
+      <b>已确认无自举死锁：</b>卷簧机 = 安山机壳 + 卷簧机轮；卷簧机轮 = 安山合金×4 + 铁块；两者都只需要铁 / 安山合金，不需要任何 Vintage 机器产物，链条可从生存第一天搭起来。
+    </div>
+  </div>
+
+  <div class="foot">
+    数据口径：createvintageneoforged.js（KubeJS 机器 + 零件配方）+ worldcrafting.js（弯曲压机世界结构）+ 模组原生 coiling/sequenced_assembly 配方交叉核对。v1.3.7 · NeoForge 1.21.1 · Create 6.0.10。
+  </div>
+</div>
+</body>
+</html>
