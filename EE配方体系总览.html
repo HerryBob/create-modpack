@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EE（electroenergetics）配方体系总览</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #F4F3EE;
+    font-family: 'Roboto', 'PingFang SC', 'Segoe UI', Arial, sans-serif;
+    color: #1A1B1C;
+    line-height: 1.5;
+    padding: 16px;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  .title { font-size: 15px; font-weight: 600; }
+  .sub { font-size: 12px; color: #6B7280; margin-top: 4px; }
+  .cards { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 0; }
+  .card {
+    flex: 1 1 100px; min-width: 0; padding: 10px 12px;
+    background: linear-gradient(135deg, rgba(163,213,232,0.18), rgba(163,213,232,0.32));
+    border-radius: 12px;
+  }
+  .card .k { font-size: 11px; color: #6B7280; }
+  .card .v { font-size: 20px; font-weight: 600; margin-top: 2px; }
+  .sec { font-size: 12px; font-weight: 600; margin: 16px 0 8px; }
+  .bar { display: flex; height: 18px; border-radius: 9px; overflow: hidden; width: 100%; }
+  .bar span { display: flex; align-items: center; justify-content: center; font-size: 10px; color: #1A1B1C; white-space: nowrap; }
+  .flow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .node {
+    padding: 6px 10px; border-radius: 8px; font-size: 11px;
+    border: 1px solid; background: rgba(0,0,0,0.03);
+  }
+  .arrow { font-size: 12px; color: #6B7280; }
+  .cols { display: flex; gap: 12px; flex-wrap: wrap; }
+  .col {
+    flex: 1 1 240px; min-width: 0; padding: 12px;
+    border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; background: rgba(0,0,0,0.025);
+  }
+  .col .h { font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+  .col .i { font-size: 11px; margin-top: 4px; }
+  .groups { display: flex; flex-wrap: wrap; gap: 8px; }
+  .g { flex: 1 1 200px; min-width: 0; padding: 10px 12px; border-radius: 10px; font-size: 11px; }
+  .tag { display: inline-block; padding: 1px 6px; border-radius: 6px; font-size: 10px; margin-left: 4px; vertical-align: 1px; }
+  .new { background: rgba(82,196,26,0.16); color: #2E7D1A; }
+  .foot { font-size: 11px; color: #6B7280; margin-top: 16px; border-top: 1px solid rgba(0,0,0,0.08); padding-top: 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="title">EE（electroenergetics）配方体系总览 <span style="font-size:11px;font-weight:400;color:#6B7280;">更新于 2026-09-19（材料真实性修订后）</span></div>
+  <div class="sub">数据口径：electroenergetics.js 全部配方（534 行），原版配方已由 00_remove_all_mod_recipes.js 清空后统一重建</div>
+
+  <div class="cards">
+    <div class="card"><div class="k">配方总数</div><div class="v">≈ 138</div></div>
+    <div class="card"><div class="k">锻造台（成型件）</div><div class="v">46</div></div>
+    <div class="card"><div class="k">动力合成（大型装配）</div><div class="v">29</div></div>
+    <div class="card"><div class="k">序列组装（多工序）</div><div class="v">4</div></div>
+    <div class="card"><div class="k">工作台（组装/染色）</div><div class="v">52</div></div>
+  </div>
+
+  <div class="sec">工艺分布</div>
+  <div class="bar">
+    <span style="width:33.3%;background:#94D4D0;">锻造 46</span>
+    <span style="width:21.0%;background:#8BC8EA;">动力 29</span>
+    <span style="width:2.9%;background:#C9A7E8;">序 4</span>
+    <span style="width:37.7%;background:#A2DDAA;">工作台 52</span>
+    <span style="width:5.1%;background:#E4D48F;">其他 7</span>
+  </div>
+
+  <div class="sec">科技线流程（12 区块）</div>
+  <div class="flow">
+    <span class="node" style="border-color:rgba(148,212,208,0.6);background:rgba(148,212,208,0.25);">端子 / 线材</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(148,212,208,0.6);background:rgba(148,212,208,0.25);">磁铁</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(139,200,234,0.7);background:rgba(139,200,234,0.28);">发电机三件套</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(139,200,234,0.7);background:rgba(139,200,234,0.28);">马达 16 色</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(201,167,232,0.6);background:rgba(201,167,232,0.22);">变压器 / AC</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(201,167,232,0.6);background:rgba(201,167,232,0.22);">蓄电 / 电容</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(244,179,147,0.6);background:rgba(244,179,147,0.25);">保护 / 开关</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(244,179,147,0.6);background:rgba(244,179,147,0.25);">仪表</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(162,221,170,0.6);background:rgba(162,221,170,0.25);">用电设备</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(162,221,170,0.6);background:rgba(162,221,170,0.25);">配电面板 16 色</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(228,212,143,0.7);background:rgba(228,212,143,0.28);">铁路输电</span><span class="arrow">→</span>
+    <span class="node" style="border-color:rgba(228,212,143,0.7);background:rgba(228,212,143,0.28);">杂项</span>
+  </div>
+
+  <div class="sec">材料体系（含真实性修订）</div>
+  <div class="cols">
+    <div class="col">
+      <div class="h">基础金属（矿物 → 部件）</div>
+      <div class="i">铜 粒/板/线/锭 — 端子、导线、绕组、换向器、接地棒（用量最大）</div>
+      <div class="i">铁 粒/板/线/锭 — 机壳、铁芯、线材、母线、接触网吊架</div>
+      <div class="i">铅（ED）· 板 — 蓄电器极板（铅酸电池）</div>
+      <div class="i">铝（ED）· 板 — 电容极板（电解电容铝箔）<span class="tag new">新改</span></div>
+      <div class="i">琥珀金（CA）· 粒 — 琥珀线（保留不改）</div>
+    </div>
+    <div class="col">
+      <div class="h">Create 本体 + ED（机械层 / 绝缘层）</div>
+      <div class="i">Create：安山合金（块/板）、工业铁块、精密机芯、轴、铁板、坚固板、黄铜手、机械泵、电子管、玻璃</div>
+      <div class="i">ED 绝缘：insulation（绝缘材料）、insulationceramic（陶瓷绝缘）、ceramicplate（换向器隔片）</div>
+      <div class="i">ED 流体：硫酸 c:sulfuric_acid — 蓄电器电解液（mixing 灌注）<span class="tag new">新改</span></div>
+    </div>
+    <div class="col">
+      <div class="h">原版材料</div>
+      <div class="i">陶瓦、煤/煤块、石英、红石、玻璃、纸、混凝土</div>
+      <div class="i">指南针 / 时钟（仪表表头）、16 染料、按钮、干海带</div>
+    </div>
+  </div>
+
+  <div class="sec">关键物品族</div>
+  <div class="groups">
+    <div class="g" style="background:rgba(139,200,234,0.14);"><b>发电机</b>：定子 / 转子（5×5）/ 单相刷架 / 三相刷架（序）</div>
+    <div class="g" style="background:rgba(139,200,234,0.14);"><b>马达 16 色</b>：铜绕组×6+铁板×3+端子×2+换向器+<b>磁铁</b>+轴+染料 <span class="tag new">补磁铁</span></div>
+    <div class="g" style="background:rgba(139,200,234,0.14);"><b>变压器系</b>：叠片→铁芯→变压器（5×5）/ 电流互感器 / 电压调节器 / 变流器</div>
+    <div class="g" style="background:rgba(244,179,147,0.16);"><b>保护开关</b>：保险丝 / 断路器×2 / 隔离开关 / 继电器×2 / 二极管 / 急停</div>
+    <div class="g" style="background:rgba(244,179,147,0.16);"><b>仪表 7 种</b>：同步/频率/电压/电流/钳形（锻造）+ 电能/三相电能（5×5）</div>
+    <div class="g" style="background:rgba(201,167,232,0.16);"><b>蓄电</b>：铅酸蓄电器（mixing 硫酸灌注）/ 电容（铝板）/ 高压电容 <span class="tag new">新工艺</span></div>
+    <div class="g" style="background:rgba(162,221,170,0.16);"><b>线轴 9 种</b>：空轴→铜/铁/琥珀/绝缘/高压/母线/铁轨/玻璃绝缘子线轴</div>
+    <div class="g" style="background:rgba(162,221,170,0.16);"><b>铁路输电</b>：受电弓 / 接触网吊架 / 玻璃绝缘子 / 轨接触靴 / 混凝土杆</div>
+  </div>
+
+  <div class="foot">数据说明：全部数字来自对 electroenergetics.js 当前文件的逐项统计（锻造 46 / 动力合成 29 / 序列组装 4 / 工作台 52 = shaped 11 + shapeless 41 / 其他 7：mixing 2·compacting 1·stonecutting 3·item_application 1）。真实性修订：马达 16 色补磁铁、电容锌→铝板、蓄电器改 mixing 硫酸电解液；SF6 断路器与 stator 按用户决定维持原样。</div>
+</div>
+</body>
+</html>
