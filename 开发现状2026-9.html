@@ -1,0 +1,125 @@
+<html style="margin:0;padding:0;">
+<title>机械动力系配方开发进度核查</title>
+<div style="width:100%;box-sizing:border-box;background:#14171c;color:#e6e8eb;font-family:'Segoe UI','Microsoft YaHei',sans-serif;padding:20px 16px;">
+  <div style="max-width:1000px;margin:0 auto;">
+    <div style="border-left:4px solid #e0524d;background:#1e2229;padding:14px 16px;border-radius:6px;margin-bottom:18px;">
+      <div style="font-size:19px;font-weight:700;margin-bottom:6px;">一阶段尚未收尾</div>
+      <div style="font-size:14px;line-height:1.7;color:#c7cbd1;">
+        基础加工模组多数完成，但 <b style="color:#f0a93c;">创意传动（生产线传动/批量风扇/物流核心）覆盖率仅 6%</b>；
+        <b style="color:#e0524d;">航空学整条链（本体 + 7 附属）配方为 0</b>；区块加载器、元物流、末影网关等功能方块未开始。
+        下图只统计<b>核心功能方块</b>，已剔除颜色/材质/轨道等装饰变体。
+      </div>
+    </div>
+
+    <div style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px;">
+      <div style="flex:1;min-width:150px;background:#1e2229;border-radius:6px;padding:12px;"><div style="font-size:26px;font-weight:700;color:#57c98a;">6</div><div style="font-size:13px;color:#9aa0a8;">基础加工模组基本完成</div></div>
+      <div style="flex:1;min-width:150px;background:#1e2229;border-radius:6px;padding:12px;"><div style="font-size:26px;font-weight:700;color:#f0a93c;">1</div><div style="font-size:13px;color:#9aa0a8;">一阶段重大缺口（创意传动）</div></div>
+      <div style="flex:1;min-width:150px;background:#1e2229;border-radius:6px;padding:12px;"><div style="font-size:26px;font-weight:700;color:#e0524d;">8</div><div style="font-size:13px;color:#9aa0a8;">航空链模组未开始</div></div>
+      <div style="flex:1;min-width:150px;background:#1e2229;border-radius:6px;padding:12px;"><div style="font-size:26px;font-weight:700;color:#5b9bd5;">9</div><div style="font-size:13px;color:#9aa0a8;">其他功能模组待补</div></div>
+    </div>
+
+    <div style="font-size:16px;font-weight:700;color:#57c98a;margin:18px 0 10px;">一阶段 · 基础加工</div>
+    <div id="g1"></div>
+
+    <div style="font-size:16px;font-weight:700;color:#e0524d;margin:24px 0 10px;">航空阶段 · 飞行链（v1.0 主线，全部未开始）</div>
+    <div id="g2"></div>
+
+    <div style="font-size:16px;font-weight:700;color:#5b9bd5;margin:24px 0 10px;">其他功能性模组</div>
+    <div id="g3"></div>
+
+    <div style="font-size:16px;font-weight:700;color:#9aa0a8;margin:24px 0 10px;">已明确延后</div>
+    <div id="g4"></div>
+
+    <div style="margin-top:22px;font-size:12px;color:#7a8088;line-height:1.7;">
+      口径：核心方块覆盖率 = 该模组核心机器/功能方块中，已作为配方产物出现的比例（KubeJS 全配方文本带引号精确匹配）。
+      "基本完成"指核心机器已覆盖、剩余为装饰变体/流体桶/半成品；最终以游戏内 JEI 物品管理器逐项核对为准。
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var rows = {
+    g1: [
+      ["机械动力本体","create","done","核心加工方块已覆盖（建议 JEI 终核）"],
+      ["电力附加 Create Addition","createaddition","done","核心完成"],
+      ["喷气背包","create_jetpack","done","核心 2/2"],
+      ["古典加工","createvintageneoforged","partial","核心基本完成，余 6 件为边缘变体"],
+      ["柴油动力","createdieselgenerators","partial","机器/引擎/工具完成；化工流体待化工线"],
+      ["电力网络 electroenergetics","electroenergetics","partial","核心完成；余损坏件/线材/流体桶"],
+      ["创意传动 Create: Connected","create_connected","bad","核心 2/32：离合器·齿轮箱·风扇催化剂·物流件几乎全缺"]
+    ],
+    g2: [
+      ["航空学本体（热气球/螺旋桨/悬浮石）","aeronautics","zero","核心 0/15"],
+      ["大推力推进器（内燃机/离子/矢量+铂链）","createpropulsion","zero","核心 0/36"],
+      ["航空控制台/陀螺仪","aeroworks","zero","核心 0/6"],
+      ["航空工具枪/磁力枪","create_aeronautics_toolgun","zero","核心 0/6"],
+      ["液压杆/万向节/气动件","aeronautics_utility_objects","zero","核心 0/9"],
+      ["自动化物流（航空站/终端）","create_aeronautics_automated_logistics","zero","核心 0/5，依赖 SimuRail"],
+      ["蓝图台 sable","sable_schematic_api","zero","核心 0/4"],
+      ["航空仪表","simulated_gauges","zero","核心 0/3"]
+    ],
+    g3: [
+      ["区块加载器","create_power_loader","zero","核心 0/4，自动化远程加载必备"],
+      ["元物流（请求/清单/票据）","createmetalogistics","zero","核心 0/7"],
+      ["铁路导航","createrailwaysnavigator","zero","核心 0/9"],
+      ["传送门（实体/物品/方块传送器）","createteleporters","partial","核心 3/16：仅做了量子流体/机制/组件，传送器方块全缺"],
+      ["末影网关","createendergateway","zero","核心 0/14"],
+      ["龙息增强（流体舱/易碎罐）","create_dragons_plus","partial","核心 1/6"],
+      ["无线红石 frequency","frequency","zero","核心 0/6（245 物品多为符号装饰件）"],
+      ["Create Cinema 影院","createcinema","zero","核心 0/15，趣味/创意内容，非基础"],
+      ["无限矿物 molten_vents","molten_vents","natural","12 个均为世界自然生成的熔融喷口，无需配方"]
+    ],
+    g4: [
+      ["机械动力火炮 createbigcannons","createbigcannons","defer","用户计划：火炮加工方块后面再做"],
+      ["料理鼠王 / 中央厨房 等食物线","food","defer","用户计划：食物相关优先级靠后"],
+      ["化工线（分馏/塑料/试剂）","chem","defer","用户计划：所有一阶段模组完成后才开始"]
+    ]
+  };
+  var style = {
+    done:  ["#57c98a","已完成"],
+    partial:["#f0a93c","基本完成"],
+    bad:    ["#e0524d","重大缺口"],
+    zero:   ["#b0443f","未开始"],
+    natural:["#5b9bd5","自然生成"],
+    defer:  ["#6b7178","延后"]
+  };
+  // 覆盖率（用于进度条宽度）
+  var pct = {
+    "create_jetpack":100,"createaddition":100,"create":100,
+    "createvintageneoforged":80,"createdieselgenerators":75,"electroenergetics":85,
+    "create_connected":6,
+    "createteleporters":19,"create_dragons_plus":17
+  };
+  function bar(id, st){
+    if(st==="done") return 100;
+    if(st==="natural"||st==="defer") return 0;
+    if(pct[id]!=null) return pct[id];
+    return 0;
+  }
+  Object.keys(rows).forEach(function(gid){
+    var box = document.getElementById(gid);
+    if(!box) return;
+    var html = "";
+    rows[gid].forEach(function(r){
+      var name=r[0], id=r[1], st=r[2], note=r[3];
+      var c = style[st][0], label=style[st][1];
+      var w = bar(id,st);
+      var showBar = (st!=="natural" && st!=="defer");
+      html += '<div style="background:#1e2229;border-radius:6px;padding:11px 13px;margin-bottom:8px;">'
+        + '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;">'
+        +   '<div style="flex:1;min-width:200px;"><div style="font-size:14px;font-weight:600;">'+name+'</div>'
+        +   '<div style="font-size:12px;color:#9aa0a8;margin-top:3px;">'+note+'</div></div>'
+        +   '<span style="font-size:12px;font-weight:600;color:'+c+';border:1px solid '+c+';border-radius:10px;padding:2px 10px;white-space:nowrap;">'+label+'</span>'
+        + '</div>';
+      if(showBar){
+        html += '<div style="margin-top:9px;height:7px;background:#2a2f37;border-radius:4px;overflow:hidden;">'
+          + '<div style="height:100%;width:'+w+'%;background:'+c+';border-radius:4px;"></div></div>';
+      }
+      html += '</div>';
+    });
+    box.innerHTML = html;
+  });
+})();
+</script>
+</html>
