@@ -1,0 +1,24 @@
+# 模组本体
+*.jar
+mods/
+
+# 游戏客户端/服务端
+Create1.21.1-*/
+
+# 备份/临时
+_aeronautics_backup/
+_cc_sable_tmp/
+temp_*/
+wrapper/
+gradle*
+*.zip
+
+# 日志/崩溃
+*.log
+crash-reports/
+logs/
+
+# 散落临时文件
+*.png
+s.txt
+_tmp_grep.txt
