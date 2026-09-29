@@ -1,0 +1,27 @@
+{
+    "item.createae2.coal_oil_bucket":"煤油桶",
+    "item.createae2.heavy_oil_bucket":"重油桶",
+    "item.createae2.sulfur_oil_bucket":"轻油桶",
+    "item.createae2.mixed_oil_bucket":"混合油桶",
+    "item.createae2.sap_bucket":"树脂桶",
+    "item.createae2.fish_oil_bucket":"鱼油桶",
+    "item.createae2.water_heavy_oil_bucket":"加水重油桶",
+    "item.createae2.molten_silicon_bucket":"熔融硅桶",
+    "item.createae2.molten_monocrystalline_silicon_bucket":"熔融单晶硅桶",
+    "item.createae2.ethylene_bucket":"液化乙烯桶",
+    "item.createae2.lubrication_oil_bucket":"润滑油桶",
+    "item.createae2.absolute_ethanol_bucket":"无水乙醇桶",
+
+    "fluid.createae2.coal_oil":"煤油",
+    "fluid.createae2.heavy_oil":"重油",
+    "fluid.createae2.sulfur_oil":"轻油",
+    "fluid.createae2.mixed_oil":"混合油",
+    "fluid.createae2.sap":"树脂",
+    "fluid.createae2.fish_oil":"鱼油",
+    "fluid.createae2.water_heavy_oil":"加水重油",
+    "fluid.createae2.molten_silicon":"熔融硅",
+    "fluid.createae2.molten_monocrystalline_silicon":"熔融单晶硅",
+    "fluid.createae2.ethylene":"液化乙烯",
+    "fluid.createae2.lubrication_oil":"润滑油",
+    "fluid.createae2.absolute_ethanol":"无水乙醇"
+}

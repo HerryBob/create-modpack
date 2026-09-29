@@ -1,0 +1,238 @@
+[
+    {
+        "mod":"spore",
+        "dimension":["minecraft:the_nether","minecraft:overworld","minecraft:the_end","create_dimension:steamworks_realm","pk_cr_di:creative_superflat"],
+        "mincount":0,
+        "result":"deny"
+    },
+    {
+        "mob":[
+            "minecraft:blaze",
+            "minecraft:zombie",
+            "minecraft:drowned",
+            "minecraft:fox"
+        ],
+        "mincount":4,
+        "result":"deny"
+    },
+    {
+        "mob":["minecraft:sniffer","minecraft:guardian","minecraft:polar_bear"],
+        "mincount":2,
+        "result":"deny"
+    },
+    {
+        "mob":"cold_sweat:chameleon",
+        "mincount":3,
+        "result":"deny"
+    },
+    {
+        "mob":[
+            "ghosts:small_ghost",
+            "ghosts:ghost"
+    ],
+        "mincount":3,
+        "result":"deny"
+    },
+
+
+  {"mob": ["minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep", "minecraft:llama", "minecraft:horse", "minecraft:donkey", "minecraft:mule"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:creeper", "minecraft:skeleton", "minecraft:spider", "minecraft:zombie", "minecraft:zombie_villager", "minecraft:husk", "minecraft:stray", "minecraft:witch", "minecraft:cave_spider", "minecraft:silverfish", "minecraft:slime", "minecraft:zoglin"], "mincount": 4, "result": "deny"},
+
+
+  {"mob": ["minecraft:enderman"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:shulker"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:pillager", "minecraft:ravager", "minecraft:evoker", "minecraft:vindicator", "minecraft:vex"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:stray", "minecraft:wither_skeleton"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:bogged"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:silverfish", "minecraft:cave_spider"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:magma_cube", "minecraft:blaze"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:rabbit"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:cat", "minecraft:fox", "minecraft:wolf", "untitledduckmod:duck", "untitledduckmod:goose"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:llama", "minecraft:husk", "minecraft:armadillo", "minecraft:camel", "minecraft:rabbit"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:sniffer"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:bat"], "mincount": 5, "result": "deny"},
+
+  {"mob": ["ghosts:ghost", "ghosts:small_ghost"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:blaze", "minecraft:ghast", "minecraft:magma_cube", "minecraft:wither_skeleton", "minecraft:zombified_piglin"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:piglin", "minecraft:piglin_brute", "minecraft:hoglin", "minecraft:zoglin", "minecraft:strider"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:piglin_brute", "minecraft:blaze"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:magma_cube", "minecraft:ghast"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:magma_cube", "minecraft:blaze"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["ghosts:ghost", "ghosts:small_ghost", "minecraft:wither_skeleton"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:wither_skeleton"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["cold_sweat:chameleon", "minecraft:parrot", "minecraft:panda", "minecraft:ocelot"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:horse", "minecraft:donkey", "minecraft:wolf"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:mooshroom"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:bogged", "minecraft:frog", "minecraft:tadpole"], "mincount": 2, "result": "deny"},
+
+
+
+  {"mob": ["minecraft:rabbit", "minecraft:wolf", "minecraft:fox", "minecraft:goat"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:guardian", "minecraft:elder_guardian", "minecraft:drowned"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:cod", "minecraft:tropical_fish", "minecraft:dolphin", "minecraft:pufferfish", "minecraft:turtle"], "mincount": 3, "result": "deny"},
+
+
+  {"mob": ["minecraft:axolotl"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:squid"], "mincount": 2, "result": "deny"},
+
+  {"mob": ["minecraft:salmon"], "mincount": 2, "result": "deny"},
+
+  {"mob": ["minecraft:drowned", "minecraft:salmon"], "mincount": 2, "result": "deny"},
+
+
+  {"mob": ["minecraft:rabbit", "minecraft:fox"], "mincount": 2, "result": "deny"},
+  {
+    "mob":[
+    "hybrid-aquatic:yeti_crab",
+    "hybrid-aquatic:pupfish",
+    "hybrid-aquatic:clownfish", 
+    "hybrid-aquatic:damselfish", 
+    "hybrid-aquatic:discus",
+    "hybrid-aquatic:parrotfish", 
+    "hybrid-aquatic:seahorse", 
+    "hybrid-aquatic:seadragon", 
+    "hybrid-aquatic:stonefish", 
+    "hybrid-aquatic:surgeonfish", 
+    "hybrid-aquatic:wrasse", 
+    "hybrid-aquatic:moon_jellyfish", 
+    "hybrid-aquatic:blue_jellyfish", 
+    "hybrid-aquatic:box_jellyfish", 
+    "hybrid-aquatic:firework_jellyfish", 
+    "hybrid-aquatic:cosmic_jellyfish", 
+    "hybrid-aquatic:coconut_crab", 
+    "hybrid-aquatic:ghost_crab", 
+    "hybrid-aquatic:flower_crab", 
+    "hybrid-aquatic:sea_slug", 
+    "hybrid-aquatic:sea_angel",
+    "hybrid-aquatic:african_butterflyfish", 
+    "hybrid-aquatic:betta", 
+    "hybrid-aquatic:gourami", 
+    "hybrid-aquatic:danio", 
+    "hybrid-aquatic:tetra", 
+    "hybrid-aquatic:tiger_barb",  
+    "hybrid-aquatic:sea_bass", 
+    "hybrid-aquatic:rockfish", 
+    "hybrid-aquatic:stingray", 
+    "hybrid-aquatic:octopus", 
+    "hybrid-aquatic:arrow_squid", 
+    "hybrid-aquatic:firefly_squid", 
+    "hybrid-aquatic:umbrella_octopus", 
+    "hybrid-aquatic:barrel_jellyfish", 
+    "hybrid-aquatic:big_red_jellyfish", 
+    "hybrid-aquatic:cepheidae_jellyfish", 
+    "hybrid-aquatic:fiddler_crab", 
+    "hybrid-aquatic:lightfoot_crab", 
+    "hybrid-aquatic:shrimp", 
+    "hybrid-aquatic:lobster", 
+    "hybrid-aquatic:crayfish", 
+    "hybrid-aquatic:horseshoe_crab",
+    "hybrid-aquatic:anglerfish", 
+    "hybrid-aquatic:john_dory", 
+    "hybrid-aquatic:snailfish", 
+    "hybrid-aquatic:oarfish", 
+    "hybrid-aquatic:ratfish", 
+    "hybrid-aquatic:vampire_squid", 
+    "hybrid-aquatic:mauve_stinger", 
+    "hybrid-aquatic:giant_isopod", 
+    "hybrid-aquatic:frilled_shark", 
+    "hybrid-aquatic:hammerhead_shark", 
+    "hybrid-aquatic:hound_shark", 
+    "hybrid-aquatic:thresher_shark",
+    "hybrid-aquatic:tiger_shark", 
+    "hybrid-aquatic:octopus", 
+    "hybrid-aquatic:arrow_squid", 
+    "hybrid-aquatic:barrel_jellyfish", 
+    "hybrid-aquatic:blue_jellyfish", 
+    "hybrid-aquatic:lobster", 
+    "hybrid-aquatic:shrimp", 
+    "hybrid-aquatic:sea_cucumber", 
+    "hybrid-aquatic:sea_urchin", 
+    "hybrid-aquatic:flying_fish",
+    "hybrid-aquatic:betta", 
+    "hybrid-aquatic:gourami", 
+    "hybrid-aquatic:danio", 
+    "hybrid-aquatic:tetra", 
+    "hybrid-aquatic:tiger_barb", 
+    "hybrid-aquatic:pupfish", 
+    "hybrid-aquatic:blowfish", 
+    "hybrid-aquatic:african_butterflyfish",
+    "hybrid-aquatic:betta", 
+    "hybrid-aquatic:gourami", 
+    "hybrid-aquatic:discus", 
+    "hybrid-aquatic:tetra",
+    "hybrid-aquatic:starfish",
+    "hybrid-aquatic:lionfish",
+    "hybrid-aquatic:lantern_shark",
+    "hybrid-aquatic:dragonfish",
+    "hybrid-aquatic:sea_nettle",
+    "hybrid-aquatic:cuttlefish",
+    "hybrid-aquatic:boxfish",
+    "hybrid-aquatic:carp",
+    "hybrid-aquatic:sunfish",
+    "hybrid-aquatic:barreleye",
+    "hybrid-aquatic:dungeness_crab",
+    "hybrid-aquatic:karcinogen",
+    "hybrid-aquatic:karcinoma",
+    "hybrid-aquatic:moray_eel",
+    "hybrid-aquatic:oscar",
+    "hybrid-aquatic:pearlfish",
+    "hybrid-aquatic:vampire_crab",
+    "hybrid-aquatic:karkinos"
+    ],
+    "mincount":0,
+    "when":"onjoin",
+    "result":"deny"
+}
+]

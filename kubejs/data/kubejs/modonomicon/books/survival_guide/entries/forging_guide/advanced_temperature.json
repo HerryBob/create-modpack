@@ -1,0 +1,26 @@
+{
+  "name": "book.kubejs.survival_guide.entry.advanced_temperature.name",
+  "description": "book.kubejs.survival_guide.entry.advanced_temperature.description",
+  "icon": "minecraft:blue_ice",
+  "category": "kubejs:forging_guide",
+  "sort_number": 7,
+  "x": 0,
+  "y": 12,
+  "parents": [
+    {
+      "entry": "forging_guide/farming_food"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.advanced_temperature.page1.title",
+      "text": "book.kubejs.survival_guide.entry.advanced_temperature.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.advanced_temperature.page2.title",
+      "text": "book.kubejs.survival_guide.entry.advanced_temperature.page2.text"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:flying_fish",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:herring",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:mackerel",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:needlefish",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:squirrelfish",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:flashlight_fish",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:barracuda_spawn_egg",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:lions_mane_jellyfish_spawn_egg",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/ocean_fish"
+}

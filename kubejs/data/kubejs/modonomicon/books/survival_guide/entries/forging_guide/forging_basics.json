@@ -1,0 +1,26 @@
+{
+  "name": "book.kubejs.survival_guide.entry.forging_basics.name",
+  "description": "book.kubejs.survival_guide.entry.forging_basics.description",
+  "icon": "overgeared:smithing_anvil",
+  "category": "kubejs:forging_guide",
+  "sort_number": 1,
+  "x": 0,
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.forging_basics.page1.title",
+      "text": "book.kubejs.survival_guide.entry.forging_basics.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.forging_basics.page2.title",
+      "text": "book.kubejs.survival_guide.entry.forging_basics.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.forging_basics.page3.title",
+      "text": "book.kubejs.survival_guide.entry.forging_basics.page3.text"
+    }
+  ]
+}

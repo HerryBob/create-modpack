@@ -1,0 +1,6 @@
+[
+    {
+      "match": ["minecraft:enchanting_table"],
+      "result": "minecraft:air"
+    }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "safe_village:plains/town_centers",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "safe_village:plains/center_square",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "book.kubejs.survival_guide.entry.seasons.name",
+  "description": "book.kubejs.survival_guide.entry.seasons.description",
+  "icon": "minecraft:oak_leaves",
+  "category": "kubejs:world_observations",
+  "sort_number": 1,
+  "x": 0,
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.seasons.page1.title",
+      "text": "book.kubejs.survival_guide.entry.seasons.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.seasons.page2.title",
+      "text": "book.kubejs.survival_guide.entry.seasons.page2.text"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "attribute": "minecraft:generic.attack_speed",
+  "targets": [
+    {"type": "item", "id": "overgeared:steel_sword"},
+    {"type": "item", "id": "overgeared:steel_axe"},
+    {"type": "item", "id": "overgeared:steel_pickaxe"},
+    {"type": "item", "id": "overgeared:steel_shovel"},
+    {"type": "item", "id": "overgeared:steel_hoe"}
+  ],
+  "qualities": {
+    "poor":    {"operation": "add", "amount": 0.0},
+    "well":    {"operation": "add", "amount": 0.0},
+    "expert":  {"operation": "add", "amount": 0.05},
+    "perfect": {"operation": "add", "amount": 0.08},
+    "master":  {"operation": "add", "amount": 0.1}
+  }
+}

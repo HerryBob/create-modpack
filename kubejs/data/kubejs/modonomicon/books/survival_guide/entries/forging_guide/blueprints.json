@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.blueprints.name",
+  "description": "book.kubejs.survival_guide.entry.blueprints.description",
+  "icon": "overgeared:blueprint",
+  "category": "kubejs:forging_guide",
+  "sort_number": 2,
+  "x": 0,
+  "y": 2,
+  "parents": [
+    {
+      "entry": "forging_guide/forging_basics"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.blueprints.page1.title",
+      "text": "book.kubejs.survival_guide.entry.blueprints.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.blueprints.page2.title",
+      "text": "book.kubejs.survival_guide.entry.blueprints.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.blueprints.page3.title",
+      "text": "book.kubejs.survival_guide.entry.blueprints.page3.text"
+    }
+  ]
+}

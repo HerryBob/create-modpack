@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:manta_ray_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:manta_ray"
+  }
+}

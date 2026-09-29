@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.mining_prep.name",
+  "description": "book.kubejs.survival_guide.entry.mining_prep.description",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "kubejs:survival_notes",
+  "sort_number": 6,
+  "x": 0,
+  "y": 10,
+  "parents": [
+    {
+      "entry": "survival_notes/shelter"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.mining_prep.page1.title",
+      "text": "book.kubejs.survival_guide.entry.mining_prep.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.mining_prep.page2.title",
+      "text": "book.kubejs.survival_guide.entry.mining_prep.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.mining_prep.page3.title",
+      "text": "book.kubejs.survival_guide.entry.mining_prep.page3.text"
+    }
+  ]
+}

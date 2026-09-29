@@ -1,0 +1,16 @@
+{
+  "attribute": "minecraft:generic.armor_toughness",
+  "targets": [
+    {"type": "item", "id": "overgeared:copper_helmet"},
+    {"type": "item", "id": "overgeared:copper_chestplate"},
+    {"type": "item", "id": "overgeared:copper_leggings"},
+    {"type": "item", "id": "overgeared:copper_boots"}
+  ],
+  "qualities": {
+    "poor":    {"operation": "add", "amount": 0.0},
+    "well":    {"operation": "add", "amount": 0.0},
+    "expert":  {"operation": "add", "amount": 0.0},
+    "perfect": {"operation": "add", "amount": 0.0},
+    "master":  {"operation": "add", "amount": 0.0}
+  }
+}

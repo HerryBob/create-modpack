@@ -1,0 +1,61 @@
+{
+  "item.cmpackagecouriers.cardboard_plane_parts": "硬纸板飞机零件",
+  "item.cmpackagecouriers.cardboard_plane": "硬纸板飞机",
+  "entity.cmpackagecouriers.cardboard_plane": "硬纸板飞机",
+
+  "tooltip.cmpackagecouriers.cardboard_plane.preopened": "[抵达玩家处时自动拆包]",
+
+  "cmpackagecouriers.ponder.sending_planes.header": "发送飞机",
+  "cmpackagecouriers.ponder.sending_planes.text_1": "包裹飞机可由包裹制作而成",
+  "cmpackagecouriers.ponder.sending_planes.text_2": "……且可通过部署器实现自动化发射",
+  "cmpackagecouriers.ponder.sending_planes.text_3": "发射飞机需要用到弹射器",
+  "cmpackagecouriers.ponder.sending_planes.text_4": "手持飞机右键也可手动发射",
+
+  "cmpackagecouriers.ponder.receiving_planes.header": "接收飞机 & 地址规则",
+  "cmpackagecouriers.ponder.receiving_planes.text_1": "飞机会将包裹递送给名字与包裹地址匹配的玩家",
+  "cmpackagecouriers.ponder.receiving_planes.text_2": "→ 示例：John_Create",
+  "cmpackagecouriers.ponder.receiving_planes.text_3": "飞机可穿越未加载区块，也能跨维度飞行",
+  "cmpackagecouriers.ponder.receiving_planes.text_4": "John_Create",
+  "cmpackagecouriers.ponder.receiving_planes.text_5": "此处为玩家示例",
+  "cmpackagecouriers.ponder.receiving_planes.text_6": "玩家需将位置发射器置于物品栏中，才能被飞机定位为投递目标",
+  "cmpackagecouriers.ponder.receiving_planes.text_7": "飞机也可向标牌名称与包裹地址匹配的驿站投递包裹",
+  "cmpackagecouriers.ponder.receiving_planes.text_8": "→ 示例：前哨站",
+  "cmpackagecouriers.ponder.receiving_planes.text_9": "此功能要求目标地址所在区块处于加载状态",
+  "cmpackagecouriers.ponder.receiving_planes.text_10": "前哨站",
+  "cmpackagecouriers.ponder.receiving_planes.text_11": "若没有可用的投递目标，飞机会像普通物品一样被弹出",
+
+  "cmpackagecouriers.ponder.special_crafting_interactions.header": "特殊合成交互",
+  "cmpackagecouriers.ponder.special_crafting_interactions.text_1": "可使用锯子拆除飞机的机翼",
+  "cmpackagecouriers.ponder.special_crafting_interactions.text_2": "可在部署器中使用剪刀预先拆开飞机包裹",
+  "cmpackagecouriers.ponder.special_crafting_interactions.text_3": "预先拆开的包裹会在抵达目标后自动完成拆包",
+
+  "cmpackagecouriers.ponder.address_interactions.header": "地址拓展用法",
+  "cmpackagecouriers.ponder.address_interactions.text_1": "包裹地址中写在「<>」内的名称，会在飞机发射时覆盖其目标地址",
+  "cmpackagecouriers.ponder.address_interactions.text_2": "→ 示例：<前哨站> 农场",
+  "cmpackagecouriers.ponder.address_interactions.text_3": "实际投递目标为「前哨站」",
+  "cmpackagecouriers.ponder.address_interactions.text_4": "该特性可让复杂的路由规划更灵活",
+  "cmpackagecouriers.ponder.address_interactions.text_5": "带有「<>」的桌布地址，会自动填充为购买者的名字",
+  "cmpackagecouriers.ponder.address_interactions.text_6": "→ 示例：已售出 <John_Create>",
+  "cmpackagecouriers.ponder.address_interactions.text_7": "→ 填充后：已售出 <John_Create>",
+
+  "cmpackagecouriers.message.inbound": "包裹正在投递中",
+  "cmpackagecouriers.message.no_address": "无有效投递目标",
+
+  "item.cmpackagecouriers.portable_stock_ticker": "便携库存行情仪",
+  "item.cmpackagecouriers.portable_stock_ticker.screen_title": "便携库存行情仪",
+  "item.cmpackagecouriers.portable_stock_ticker.not_linked": "未连接至库存网络",
+  "item.cmpackagecouriers.portable_stock_ticker.tooltip.summary": "便携式库存管理终端",
+  "item.cmpackagecouriers.portable_stock_ticker.tooltip.condition1": "潜行点击库存链接器或库存行情仪时",
+  "item.cmpackagecouriers.portable_stock_ticker.tooltip.behaviour1": "便携库存行情仪会绑定至对应库存网络",
+  "item.cmpackagecouriers.portable_stock_ticker.tooltip.condition2": "使用时",
+  "item.cmpackagecouriers.portable_stock_ticker.tooltip.behaviour2": "便携库存行情仪会打开移动版库存管理界面",
+
+  "item.cmpackagecouriers.location_transmitter": "位置发射器",
+  "item.cmpackagecouriers.location_transmitter.status": "状态",
+  "item.cmpackagecouriers.location_transmitter.enabled": "已启用",
+  "item.cmpackagecouriers.location_transmitter.disabled": "已禁用",
+  "item.cmpackagecouriers.location_transmitter.activated": "位置发射器已激活",
+  "item.cmpackagecouriers.location_transmitter.deactivated": "位置发射器已停用",
+  "item.cmpackagecouriers.location_transmitter.tooltip": "右键点击切换状态",
+  "item.cmpackagecouriers.location_transmitter.server_config": "玩家被定位为投递目标需启用此发射器"
+}

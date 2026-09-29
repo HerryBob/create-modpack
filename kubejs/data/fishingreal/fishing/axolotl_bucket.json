@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "minecraft:axolotl_bucket"
+  },
+  "result": {
+    "id": "minecraft:axolotl"
+  }
+}

@@ -1,0 +1,1315 @@
+[
+    {
+      "mob": [
+        "minecraft:chicken",
+        "minecraft:cow",
+        "minecraft:pig",
+        "minecraft:sheep",
+        "untitledduckmod:duck",
+        "untitledduckmod:goose",
+        "alexsmobs:hummingbird",
+        "alexsmobs:cockroach"
+      ],
+      "persecond": 0.5,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 2,
+        "and": {
+          "biometags": [
+            "c:is_plains"
+            ],
+          "seesky":true     
+        },
+        "not": { 
+          "structuretags":[
+            "minecraft:village",
+            "terralith:fortified_villages"
+          ]
+        }
+        
+      }
+    },
+    {
+      "mob": [
+        "minecraft:creeper",
+        "minecraft:skeleton",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:stray",
+        "minecraft:witch",
+        "minecraft:cave_spider",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:zoglin",
+        "minecraft:bat",
+        "alexsmobs:fly",
+        "alexsmobs:centipede_head"
+      ],
+      "persecond": 0.1,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-10,
+        "maxheight":150,
+        "maxthis": 2,
+        "and": {
+          "biometags": [
+            "c:is_cave"
+        ]
+        },
+        "not":{
+          "biome":["minecraft:lush_caves",
+        "terralith:cave/frostfire_caves"]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:shulker",
+        "alexsmobs:endergrade",
+        "alexsmobs:mimicube",
+        "alexsmobs:enderiophage",
+        "alexsmobs:cosmaw",
+        "alexsmobs:cosmic_cod"
+      ],
+      "persecond": 0.3,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_end",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "structure": [
+            "minecraft:end_city"
+        ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:pillager",
+        "minecraft:ravager",
+        "minecraft:evoker",
+        "minecraft:vindicator",
+        "minecraft:vex"
+      ],
+      "persecond": 0.25,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "structure":[
+            "villagesandpillages:village_witch",
+            "minecraft:pillager_outpost",
+            "create_pillagers_arise:cathedral_create",
+            "create_pillagers_arise:createchinatower",
+            "create_pillagers_arise:createpillagerblimp",
+            "create_pillagers_arise:createpillagercamp",
+            "create_pillagers_arise:createpillagerfortgate",
+            "create_pillagers_arise:createpillagerhousesmall",
+            "create_pillagers_arise:createpillageroutpost",
+            "create_pillagers_arise:createpillagersmallhouse",
+            "create_pillagers_arise:createpillagervillage",
+            "create_pillagers_arise:pillagercreatetower"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:stray",
+        "minecraft:wither_skeleton",
+        "minecraft:blaze"
+      ],
+      "persecond": 0.23,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-10,
+        "maxheight":150,
+        "maxthis": 4,
+        "and": {
+          "biome":["terralith:cave/frostfire_caves"]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:bogged",
+        "minecraft:blaze",
+        "minecraft:ghast",
+        "minecraft:magma_cube",
+        "minecraft:wither_skeleton",
+        "minecraft:zombified_piglin",
+        "alexsmobs:straddler"
+      ],
+      "persecond": 0.42,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_nether",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:nether_wastes",
+            "incendium:ash_barrens",
+            "incendium:infernal_dunes",
+            "incendium:quartz_flats",
+            "incendium:toxic_heap",
+            "incendium:volcanic_deltas",
+            "minecraft:basalt_deltas"
+        ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:magma_cube",
+        "minecraft:blaze"
+      ],
+      "persecond": 0.21,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":150,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "terralith:cave/mantle_caves",
+            "terralith:cave/thermal_caves"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:rabbit",
+        "alexsmobs:gelada_monkey"
+      ],
+      "persecond": 0.21,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biome": [
+            "minecraft:plains",
+            "minecraft:sunflower_plains",
+            "terralith:shield",
+            "terralith:steppe",
+            "terralith:shield_clearing"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:cat",
+        "minecraft:fox",
+        "minecraft:wolf",
+        "minecraft:rabbit",
+        "alexsmobs:grizzly_bear"
+      ],
+      "persecond": 0.18,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 2,
+        "and": {
+          "biometags": [
+            "c:is_forest",
+            "c:is_taiga",
+            "c:is_hill"
+        ],
+        "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:llama",
+        "minecraft:husk",
+        "minecraft:armadillo",
+        "minecraft:camel",
+        "minecraft:rabbit"
+      ],
+      "persecond": 0.21,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_badlands",
+            "c:is_desert"
+          ],
+          "structuretags":[
+            "minecraft:village",
+            "terralith:fortified_villages"
+          ],
+          "seesky":true
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:sniffer",
+        "alexsmobs:rocky_roller",
+        "alexsmobs:flutter"
+    ],
+      "persecond": 0.19,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":150,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:lush_caves" 
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:jerboa",
+        "alexsmobs:rain_frog"
+      ],
+      "persecond": 0.25,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_overworld"
+          ],
+          "seesky":true,
+          "mintime":13000,
+          "maxtime":23000
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:piglin",
+        "minecraft:piglin_brute",
+        "minecraft:hoglin",
+        "minecraft:zoglin",
+        "minecraft:strider",
+        "minecraft:blaze",
+        "minecraft:magma_cube",
+        "minecraft:ghast",
+        "alexsmobs:crimson_mosquito",
+        "alexsmobs:warped_toad"
+      ],
+      "persecond": 0.15,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_nether",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biome": [
+            "minecraft:crimson_forest",
+            "minecraft:warped_forest",
+            "incendium:inverted_forest"
+          ]  
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:bone_serpent",
+        "alexsmobs:laviathan",
+        "alexsmobs:soul_vulture"
+      ],
+      "persecond": 0.28,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_nether",
+        "norestrictions":true,
+        "inlava":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_nether"
+          ]  
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:wither_skeleton",
+        "alexsmobs:dropbear"
+      ],
+      "persecond": 0.21,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_nether",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biome": [
+            "incendium:weeping_valley",
+            "incendium:withered_forest",
+            "minecraft:soul_sand_valley"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "cold_sweat:chameleon",
+        "minecraft:parrot",
+        "minecraft:panda",
+        "minecraft:ocelot",
+        "alexsmobs:gorilla",
+        "alexsmobs:komodo_dragon",
+        "alexsmobs:capuchin_monkey"
+      ],
+      "persecond": 0.26,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_jungle"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:roadrunner",
+        "alexsmobs:rattlesnake",
+        "alexsmobs:emu",
+        "alexsmobs:tarantula_hawk",
+        "minecraft:spider"
+      ],
+      "persecond": 0.33,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_desert",
+            "c:is_badlands"
+          ],
+          "seesky":true   
+        },
+        "not":{
+          "structuretags":[
+            "minecraft:village",
+            "terralith:fortified_villages"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:bald_eagle"
+      ],
+      "persecond": 0.25,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_hill"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:horse",
+        "minecraft:donkey",
+        "minecraft:wolf",
+        "alexsmobs:gazelle",
+        "alexsmobs:elephant",
+        "alexsmobs:kangaroo",
+        "alexsmobs:maned_wolf"
+      ],
+      "persecond": 0.2,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_savanna"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:mooshroom",
+        "alexsmobs:fly",
+        "alexsmobs:mungus",
+        "alexsmobs:bunfungus"
+      ],
+      "persecond": 0.29,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_mushroom"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:bogged",
+        "minecraft:frog",
+        "minecraft:tadpole",
+        "alexsmobs:crocodile",
+        "alexsmobs:shoebill",
+        "alexsmobs:alligator_snapping_turtle",
+        "alexsmobs:anaconda",
+        "alexsmobs:caiman"
+      ],
+      "persecond": 0.28,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_swamp"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:potoo",
+        "alexsmobs:skunk"
+      ],
+      "persecond": 0.2,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_dark_forest"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:banana_slug"
+      ],
+      "persecond": 0.2,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_taiga"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:rabbit",
+        "minecraft:wolf",
+        "minecraft:fox",
+        "minecraft:goat"
+      ],
+      "persecond": 0.22,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_snowy",
+            "c:is_snowy_plains"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:salmon",
+        "alexsmobs:flying_fish",
+        "alexsmobs:triops",
+        "hybrid-aquatic:barracuda",
+        "hybrid-aquatic:mahi",
+        "hybrid-aquatic:lionfish",
+        "hybrid-aquatic:tuna",
+        "hybrid-aquatic:lions_mane_jellyfish",
+        "hybrid-aquatic:lantern_shark"
+      ],
+      "persecond": 0.55,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":20,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "hybrid-aquatic:whale_shark",
+        "hybrid-aquatic:great_white_shark",
+        "hybrid-aquatic:bull_shark",
+        "hybrid-aquatic:lantern_shark",
+        "hybrid-aquatic:basking_shark"
+      ],
+      "persecond": 0.75,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":50,
+        "maxheight":72,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "hybrid-aquatic:needlefish",
+        "hybrid-aquatic:herring",
+        "hybrid-aquatic:squirrelfish",
+        "hybrid-aquatic:mackerel",
+        "hybrid-aquatic:flashlight_fish"
+      ],
+      "persecond": 0.75,
+      "attempts": 15,
+      "amount": {
+        "minimum": 10,
+        "maximum": 10,
+        "groupdistance":20
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":20,
+        "maxthis": 20,
+        "and": {
+          "biometags": [
+            "c:is_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:raccoon",
+        "alexsmobs:tasmanian_devil",
+        "alexsmobs:sugar_glider"
+      ],
+      "persecond": 0.12,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_birch_forest"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:enderman",
+        "alexsmobs:spectre"
+      ],
+      "persecond": 0.24,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:the_end",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:the_end"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:rhinoceros",
+        "alexsmobs:skunk"
+      ],
+      "persecond": 0.19,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_flower_forest"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:moose",
+        "alexsmobs:snow_leopard",
+        "alexsmobs:froststalker",
+        "alexsmobs:tusklin",
+        "alexsmobs:bison"
+      ],
+      "persecond": 0.26,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_icy"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:bald_eagle",
+        "alexsmobs:tiger",
+        "alexsmobs:toucan"
+      ],
+      "persecond": 0.12,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "biometags": [
+            "c:is_windswept"
+          ],
+          "seesky":true   
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:guardian",
+        "minecraft:elder_guardian",
+        "minecraft:drowned",
+        "alexsmobs:skelewag"
+      ],
+      "persecond": 0.24,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-64,
+        "maxheight":400,
+        "maxthis": 3,
+        "and": {
+          "structure":[
+            "betteroceanmonuments:ocean_monument"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:cod",
+        "minecraft:tropical_fish",
+        "minecraft:dolphin",
+        "minecraft:pufferfish",
+        "alexsmobs:mimic_octopus"
+      ],
+      "persecond": 0.31,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 70,
+        "maxheight": 100,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_beach"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:turtle",
+        "alexsmobs:mimic_octopus",
+        "alexsmobs:seagull",
+        "hybrid-aquatic:manta_ray",
+        "hybrid-aquatic:hermit_crab",
+        "hybrid-aquatic:nautilus"
+      ],
+      "persecond": 0.51,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 70,
+        "maxheight": 200,
+        "maxthis": 4,
+        "and": {
+          "biometags": [
+            "c:is_beach"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:axolotl",
+        "alexsmobs:blobfish"
+      ],
+      "persecond": 0.8,
+      "attempts": 15,
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater": true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight":-10,
+        "maxheight":150,
+        "maxthis": 2,
+        "and": {
+          "biometags": ["c:is_cave"]
+        }
+      }
+    },
+    {
+      "mob": ["alexsmobs:sunbird"],
+      "persecond": 0.1,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 1, 
+        "maximum": 1
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 400,
+        "maxheight": 500,
+        "maxthis": 1,
+        "and": {
+          "biometags": ["c:is_overworld"]
+        }
+      }
+    },
+    {
+      "mob": [
+        "minecraft:drowned",
+        "minecraft:salmon",
+        "alexsmobs:seal",
+        "alexsmobs:orca",
+        "alexsmobs:comb_jelly",
+        "alexsmobs:giant_squid",
+        "hybrid-aquatic:crown_jellyfish",
+        "hybrid-aquatic:nomura_jellyfish"
+      ],
+      "persecond": 0.65,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 2, 
+        "maximum": 4 
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater": true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 60,
+        "maxheight": 71,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:frozen_river",
+            "minecraft:frozen_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:hammerhead_shark",
+        "alexsmobs:mantis_shrimp",
+        "alexsmobs:cachalot_whale",
+        "alexsmobs:frilled_shark"
+        
+      ],
+      "persecond": 0.58,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 1, 
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater": true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 60,
+        "maxheight": 72,
+        "maxthis": 3,
+        "and": {
+          "biome": [
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:warm_ocean",
+            "terralith:deep_warm_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "hybrid-aquatic:triggerfish",
+        "hybrid-aquatic:opah",
+        "hybrid-aquatic:spider_crab",
+        "hybrid-aquatic:decorator_crab"
+      ],
+      "persecond": 0.5,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 1, 
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater": true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": -40,
+        "maxheight": 30,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:deep_lukewarm_ocean",
+            "minecraft:warm_ocean",
+            "terralith:deep_warm_ocean"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:platypus",
+        "alexsmobs:terrapin",
+        "alexsmobs:catfish",
+        "untitledduckmod:duck",
+        "untitledduckmod:goose",
+        "hybrid-aquatic:piranha",
+        "hybrid-aquatic:golden_dorado",
+        "hybrid-aquatic:coelacanth",
+        "hybrid-aquatic:otter",
+        "hybrid-aquatic:sunfish",
+        "hybrid-aquatic:goldfish",
+        "alexsmobs:triops",
+        "hybrid-aquatic:ocean_sunfish"
+      ],
+      "persecond": 0.45,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 2, 
+        "maximum": 4 
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "inwater": true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": 40,
+        "maxheight": 71,
+        "maxthis": 4,
+        "and": {
+          "biome": [
+            "minecraft:river",
+            "terralith:warm_river"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:farseer",
+        "alexsmobs:skreecher"
+      ],
+      "persecond": 0.1,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 1, 
+        "maximum": 1
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": -64,
+        "maxheight": -10,
+        "maxthis": 2,
+        "and": {
+          "biome": [
+            "minecraft:deep_dark"
+          ]
+        }
+      }
+    },
+    {
+      "mob": [
+        "alexsmobs:underminer",
+        "alexsmobs:murmur"
+      ],
+      "persecond": 0.34,
+      "attempts": 15,
+      "amount": { 
+        "minimum": 1, 
+        "maximum": 2
+      },
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "norestrictions":true,
+        "mindist": 40,
+        "maxdist": 80,
+        "minheight": -64,
+        "maxheight": -10,
+        "maxthis": 4,
+        "and": {
+          "structuretags": [
+            "alexsmobs:spawns_underminers"
+          ]
+        }
+      }
+    }
+  ]      

@@ -1,0 +1,10 @@
+[
+    {
+      "match": ["minecraft:emerald_ore"],
+      "result": "minecraft:stone"
+    },
+    {
+      "match": ["minecraft:deepslate_emerald_ore"],
+      "result": "minecraft:deepslate"
+    }
+]

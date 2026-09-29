@@ -1,0 +1,90 @@
+{
+  "item.vegandelight.tofu": "Tofu",
+  "item.vegandelight.silken_tofu": "Silken Tofu",
+  "item.vegandelight.minced_tofu": "Minced Tofu",
+  "item.vegandelight.tofu_slices": "Tofu Slices",
+  "item.vegandelight.tofish": "Tofish",
+  "item.vegandelight.tofish_slices": "Tofish Slices",
+  "item.vegandelight.tofish_roll": "Tofish Roll",
+  "item.vegandelight.tofu_patty": "Tofu Patty",
+
+
+  "item.vegandelight.smoked_tofu": "Smoked Tofu",
+  "item.vegandelight.smoked_tofish": "Smoked Tofish",
+  "item.vegandelight.smoked_tofish_roll": "Smoked Tofish Roll",
+  "item.vegandelight.smoked_tofu_slices": "Smoked Tofu Slices",
+
+
+  "item.vegandelight.cooked_tofu": "Cooked Tofu",
+  "item.vegandelight.cooked_tofu_slices": "Cooked Tofu Slices",
+  "item.vegandelight.cooked_tofish": "Cooked Tofish",
+
+
+  "item.vegandelight.cooked_smoked_tofu": "Cooked Smoked Tofu",
+  "item.vegandelight.cooked_smoked_tofish": "Cooked Smoked Tofish",
+  "item.vegandelight.cooked_smoked_tofu_slices": "Cooked Smoked Tofu Slices",
+
+
+  "item.vegandelight.salt": "Salt",
+  "item.vegandelight.soybean": "Soybean",
+  "block.vegandelight.soymilk": "Soymilk",
+  "fluid_type.vegandelight.soymilk": "Soymilk",
+  "item.vegandelight.soymilk_bottle": "Soymilk Bottle",
+  "item.vegandelight.soymilk_bucket": "Soymilk Bucket",
+  "item.vegandelight.leather_substitute": "Leather Substitute",
+  "item.vegandelight.agave_syrup": "Agave Syrup Bottle",
+
+
+  "farmersdelight.tooltip.soymilk_bottle": "Clears 1 Effect",
+  "farmersdelight.tooltip.soymilk_bucket": "Clears 1 Effect",
+
+
+  "item.vegandelight.pasta_with_tofuballs": "Pasta with Tofuballs",
+  "item.vegandelight.roasted_tofu_chops": "Roasted Tofu Chops",
+  "item.vegandelight.tofu_burger": "Tofu Burger",
+  "item.vegandelight.tofu_sandwich": "Tofu Sandwich",
+
+
+  "item.vegandelight.applesauce": "Applesauce",
+  "item.vegandelight.applesauce_bucket": "Applesauce Bucket",
+  "block.vegandelight.applesauce_fluid": "Applesauce",
+  "fluid_type.vegandelight.applesauce_fluid": "Applesauce",
+
+
+  "block.vegandelight.soybean_bag": "Bag of Soybean",
+  "block.vegandelight.wild_soybean": "Wild Soybean",
+
+
+  "vegandelight.advancement.cook_smoked_tofu.title": "More cooking",
+  "vegandelight.advancement.cook_smoked_tofu.desc": "Cook a smoked tofu slice",
+  "vegandelight.advancement.cooked_tofish.title": "It's less fishy",
+  "vegandelight.advancement.cooked_tofish.desc": "Cook a tofish",
+  "vegandelight.advancement.cook_tofu_slice.title": "Cook it again?",
+  "vegandelight.advancement.cook_tofu_slice.desc": "Cook tofu slices",
+  "vegandelight.advancement.minced_tofu.title": "It's even smaller",
+  "vegandelight.advancement.minced_tofu.desc": "Slice, a tofu slice",
+  "vegandelight.advancement.soybean.title": "A strange bean",
+  "vegandelight.advancement.soybean.desc": "Get your first soybean",
+  "vegandelight.advancement.silken_tofu.title": "It's so glibbery",
+  "vegandelight.advancement.silken_tofu.desc": "Cook a soy milk with salt and extra water",
+  "vegandelight.advancement.smoked_tofish.title": "It's even more fishy",
+  "vegandelight.advancement.smoked_tofish.desc": "Smoke a tofish",
+  "vegandelight.advancement.smoked_tofu.title": "Smoke it",
+  "vegandelight.advancement.smoked_tofu.desc": "Smoke a tofu",
+  "vegandelight.advancement.smoked_tofu_slices.title": "More slicing",
+  "vegandelight.advancement.smoked_tofu_slices.desc": "Slice a smoked tofu",
+  "vegandelight.advancement.soymilk_bucket.title": "A strange liquid",
+  "vegandelight.advancement.soymilk_bucket.desc": "Cook the soybean with water",
+  "vegandelight.advancement.tofish.title": "It's fishy",
+  "vegandelight.advancement.tofish.desc": "Craft tofu slices with kelp",
+  "vegandelight.advancement.tofu.title": "A new lifestyle",
+  "vegandelight.advancement.tofu.desc": "Cook a soy milk with salt",
+  "vegandelight.advancement.tofu_patty.title": "Burger time",
+  "vegandelight.advancement.tofu_patty.desc": "Cook minced tofu",
+  "vegandelight.advancement.tofu_slices.title": "Slice it",
+  "vegandelight.advancement.tofu_slices.desc": "Slice a tofu",
+
+
+  "itemGroup.vegan_delight": "Vegan Delight",
+  "tooltip.vegandelight.replaces": "Can be used as a replacement for %s."
+}

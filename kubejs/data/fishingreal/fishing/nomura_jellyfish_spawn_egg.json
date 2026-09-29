@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:nomura_jellyfish_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:nomura_jellyfish"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:raw_catfish",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:piranha",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:golden_dorado",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:goldfish",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:coelacanth",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:sunfish",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_platypus",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_terrapin",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_triops",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_stradpole",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:otter_spawn_egg",
+          "weight": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/river_fish"
+}

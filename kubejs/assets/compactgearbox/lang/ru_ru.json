@@ -1,0 +1,28 @@
+{
+  "itemGroup.compactgearbox": "Create: Компактная КПП",
+  "block.compactgearbox.compact_gearbox": "Механическая КПП",
+  "block.compactgearbox.gearbox_controller": "Рычаг МКПП",
+  "block.compactgearbox.sequential_gearbox": "Секвентальная КПП",
+
+  "compactgearbox.gui.gear": "Режим",
+  "compactgearbox.gui.ratio": "Коэфф.",
+  "compactgearbox.gui.save": "Сохранить",
+  "compactgearbox.gui.up": "Вверх",
+  "compactgearbox.gui.down": "Вниз",
+  "compactgearbox.gui.current": "Текущая:",
+  "compactgearbox.gui.sequential_gearbox": "Секвентальная КПП",
+  "compactgearbox.gui.manual_gearbox": "Механическая КПП",
+
+  "compactgearbox.tooltip.hold_shift": "§7Зажмите §f[Shift] §7для информации",
+  "compactgearbox.tooltip.compact_gearbox": "§6Механическая КПП, изменяющая|§6скорость вращения||§6Для управления необходим|§fРычаг МКПП§||§f[Shift + ПКМ] §6— открыть меню|§6настройки передач",
+  "compactgearbox.tooltip.gearbox_controller": "§6Ставится на §fМеханическую КПП||§6Зажмите §f[ПКМ] §6для переключения|§6передач||§fНаведите §6на нужную передачу,|§6а затем §fотпустите,|§6тогда она §fвключится||§6При промахе включается §fN",
+  "compactgearbox.tooltip.sequential_gearbox": "§6Секвентальная КПП, управляющаяся|§6через §fредстоун-сеть Create||§f[Shift + ПКМ] §6— открыть настройки|§6частот и передач||§6Повышение передачи — §f[Вверх],|§6понижение — §f[Вниз]",
+
+  "compactgearbox.configuration.title": "Настройки Create Compact Gearbox",
+  "compactgearbox.configuration.section.compactgearbox.common.toml": "Настройки Create Compact Gearbox",
+  "compactgearbox.configuration.section.compactgearbox.common.toml.title": "Настройки Create Compact Gearbox",
+  "compactgearbox.configuration.items": "Список предметов",
+  "compactgearbox.configuration.logDirtBlock": "Логировать блок земли",
+  "compactgearbox.configuration.magicNumberIntroduction": "Текст магического числа",
+  "compactgearbox.configuration.magicNumber": "Магическое число"
+}

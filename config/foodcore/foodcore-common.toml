@@ -1,0 +1,87 @@
+[general]
+	#Master switch for the entire food condition system
+	#食物状态系统总开关
+	enableFoodConditionSystem = true
+	#Global scan interval in seconds for food condition detection
+	#食物状态检测的全局扫描间隔秒数
+	# Default: 5
+	# Range: > 1
+	detectionScanIntervalSeconds = 5
+	#Enable player inventory food condition detection
+	#是否启用玩家背包食物状态检测
+	enablePlayerInventoryDetection = true
+	#Enable vanilla static container food condition detection
+	#是否启用原版静态容器食物状态检测
+	enableStaticContainerDetection = true
+	#Enable entity container food condition detection
+	#是否启用实体容器食物状态检测
+	enableEntityContainerDetection = true
+	#Enable Create static capability container food condition detection
+	#是否启用 Create 静态容器食物状态检测
+	enableCreateStaticContainerDetection = true
+	#Enable Create contraption storage food condition detection
+	#是否启用 Create 动态结构食物状态检测
+	enableCreateContraptionDetection = true
+	#Enable dropped item food condition detection
+	#是否启用掉落物食物状态检测
+	enableItemEntityDetection = true
+	#Enable recursive food condition processing inside Create packages
+	#是否启用 Create 包裹内部食物状态递归处理
+	enablePackageProcessing = true
+	#Enable food condition tooltip rendering
+	#是否启用食物状态 Tooltip 显示
+	enableFoodConditionTooltip = true
+	#Enable Cold Sweat consumption effect from frozen food
+	#是否启用冻结食物的 Cold Sweat 食用效果
+	enableColdSweatConsumptionEffect = true
+	#Enable item stacking merge if true the food quality will be affected by stacking
+	#是否开启物品堆叠合并，开启后物品堆叠时会影响食物质量
+	enableStackingMerge = true
+	#Auto merge interval in seconds for food stacks
+	#食物自动合并的间隔秒数
+	# Default: 30
+	# Range: > 1
+	stackingMergeIntervalSeconds = 30
+	#Max reduction from frozen items when merging (0.0 to 1.5)
+	#物品合并时的最大质量减少，范围0.0到1.5
+	# Default: 0.2
+	# Range: 0.0 ~ 1.5
+	freezingReductionMax = 0.2
+	#Enable FoodCore performance profiling logs
+	#是否启用 FoodCore 性能埋点日志
+	enablePerformanceProfiling = false
+	#How many condition scan cycles between performance log snapshots
+	#性能日志快照输出间隔，单位为食物状态扫描周期
+	# Default: 12
+	# Range: > 1
+	performanceLogIntervalCycles = 12
+	#How many rotating slices vanilla static container scanning should use; higher values reduce peak load but also lower per-container update frequency
+	#原版静态容器分批轮转扫描的分片数；值越大单次负载越低，但单个容器的刷新频率也越低
+	# Default: 10
+	# Range: > 1
+	staticContainerScanSlices = 10
+	#How many rotating slices entity container scanning should use
+	#实体容器分批轮转扫描的分片数
+	# Default: 4
+	# Range: > 1
+	entityContainerScanSlices = 4
+	#How many rotating slices Create static capability container scanning should use
+	#Create 静态 capability 容器分批轮转扫描的分片数
+	# Default: 4
+	# Range: > 1
+	createStaticContainerScanSlices = 4
+	#How many rotating slices Create contraption scanning should use
+	#Create 动态结构分批轮转扫描的分片数
+	# Default: 4
+	# Range: > 1
+	createContraptionScanSlices = 4
+	#How many rotating slices dropped item scanning should use
+	#掉落物分批轮转扫描的分片数
+	# Default: 4
+	# Range: > 1
+	itemEntityScanSlices = 4
+	#Region size for static container temperature cache; smaller values keep higher precision while larger values improve cache hit rate
+	#静态容器温度缓存的区域边长；值越小精度越高，值越大缓存命中率越高
+	# Default: 4
+	# Range: > 1
+	staticContainerTemperatureCacheRegionSize = 2

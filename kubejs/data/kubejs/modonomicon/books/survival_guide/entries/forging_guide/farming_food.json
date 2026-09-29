@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.farming_food.name",
+  "description": "book.kubejs.survival_guide.entry.farming_food.description",
+  "icon": "minecraft:wheat",
+  "category": "kubejs:forging_guide",
+  "sort_number": 6,
+  "x": 0,
+  "y": 10,
+  "parents": [
+    {
+      "entry": "forging_guide/expedition_prep"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.farming_food.page1.title",
+      "text": "book.kubejs.survival_guide.entry.farming_food.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.farming_food.page2.title",
+      "text": "book.kubejs.survival_guide.entry.farming_food.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.farming_food.page3.title",
+      "text": "book.kubejs.survival_guide.entry.farming_food.page3.text"
+    }
+  ]
+}

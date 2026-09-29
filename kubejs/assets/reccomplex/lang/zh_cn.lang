@@ -1,0 +1,661 @@
+item.blockSelector.name=方块选择器
+item.blockSelectorFloating.name=浮动方块选择器
+item.inventoryGenerationTag.name=战利品生成标签
+item.inventoryGenerationSingleTag.name=单个战利品生成标签
+item.inventoryGenerationComponentTag.name=战利品表组件标签
+item.artifactGenerationTag.name=神器生成标签
+item.bookGenerationTag.name=书本生成标签
+item.recinspector.name=检查器
+
+tile.negativeSpace.name=通用空间
+tile.negativeSpace.meta.0.name=空间 (0 ~ 负空间)
+tile.negativeSpace.meta.1.name=空间 (1 ~ 自然空气)
+tile.negativeSpace.meta.2.name=空间 (2)
+tile.negativeSpace.meta.3.name=空间 (3)
+tile.negativeSpace.meta.4.name=空间 (4)
+tile.negativeSpace.meta.5.name=空间 (5)
+tile.negativeSpace.meta.6.name=空间 (6)
+tile.negativeSpace.meta.7.name=空间 (7)
+tile.negativeSpace.meta.8.name=空间 (8)
+tile.negativeSpace.meta.9.name=空间 (9)
+tile.negativeSpace.meta.10.name=空间 (10)
+tile.negativeSpace.meta.11.name=空间 (11)
+tile.negativeSpace.meta.12.name=空间 (12)
+tile.negativeSpace.meta.13.name=空间 (13)
+tile.negativeSpace.meta.14.name=空间 (14)
+tile.negativeSpace.meta.15.name=空间 (15)
+tile.naturalFloor.name=通用固体
+tile.naturalFloor.meta.0.name=固体 (0 ~ 天然地面)
+tile.naturalFloor.meta.1.name=固体 (1 ~ 屏障)
+tile.naturalFloor.meta.2.name=固体 (2)
+tile.naturalFloor.meta.3.name=固体 (3)
+tile.naturalFloor.meta.4.name=固体 (4)
+tile.naturalFloor.meta.5.name=固体 (5)
+tile.naturalFloor.meta.6.name=固体 (6)
+tile.naturalFloor.meta.7.name=固体 (7)
+tile.naturalFloor.meta.8.name=固体 (8)
+tile.naturalFloor.meta.9.name=固体 (9)
+tile.naturalFloor.meta.10.name=固体 (10)
+tile.naturalFloor.meta.11.name=固体 (11)
+tile.naturalFloor.meta.12.name=固体 (12)
+tile.naturalFloor.meta.13.name=固体 (13)
+tile.naturalFloor.meta.14.name=固体 (14)
+tile.naturalFloor.meta.15.name=固体 (15)
+tile.structureGenerator.name=结构生成器
+tile.mazeGenerator.name=迷宫生成器
+tile.spawnCommand.name=生成命令方块
+tile.spawn_script.name=脚本方块
+
+itemGroup.structureTools=结构工具
+itemGroup.inventoryGenerators=战利品
+
+commands.rc.noEntityInfo=发送方不处理结构信息！
+commands.rc.noSelection=发送方不处理选区！
+commands.rc.large.warn=选区非常大！这可能需要一些时间。
+commands.rc.large.error=选区太大了！(如果不是这样，这条命令可能要运行好几天！)
+
+commands.structure.notGeneric=结构 '%s' 不是通用类型！
+commands.structure.notRegistered=未找到名为 '%s' 的结构！
+
+commands.strucGen.failure=结构生成失败: %s
+commands.strucGen.noStructure=没有注册名为 '%s' 的结构
+
+commands.strucImport.noStructure=没有注册名为 '%s' 的结构
+
+commands.selectSet.get=选区: %s
+commands.selectSet.size=大小: %s (%s 方块)
+
+commands.selectModify.noSelection=玩家没有完整的选区
+commands.selectModify.invalidMetadata=元数据必须像 '0,1,5' 这样输入，但得到的是 '%s'
+
+commands.strucReload.success=重新加载了所有 %s 个文件。
+
+commands.selectCopy.success=已复制 (%s) 到剪贴板
+
+commands.strucPaste.noClipboard=你必须先复制一个区域！
+
+commands.rcpreview.invalid=无效的预览类型
+commands.rcpreview.success=预览类型已设置为 '%s'
+
+commands.rc.noOperation=当前没有排队的操作
+commands.rc.queuedOp=操作预览中 - %s 或 %s
+commands.rcconfirm.run=执行操作
+commands.rccancel.run=取消操作
+
+commands.rcreopen.run=重新打开 GUI
+commands.rcreopen.nogui=没有可重新打开的 GUI！
+commands.rcreopen.fail=重新打开 GUI 失败！
+commands.rc.didhide=已隐藏 GUI - %s？
+
+commands.rcimportschematic.missing=在 %s 中未找到文件 '%s'
+commands.rcimportschematic.format=文件 '%s' 的格式不受支持 (%s)
+
+commands.strucExportSchematic.success=已导出原理图到 %s
+
+commands.biomedict.get=%s 的生物群系类型: %s
+commands.biomedict.get.number=查找 (%s 个生物群系)
+commands.biomedict.list=%s 类型的生物群系: %s
+commands.biomedict.list.number=查找 (%s 个类型)
+
+commands.dimensiondict.get=%d 的维度类型: %s
+commands.dimensiondict.get.number=查找 (%s 个维度)
+commands.dimensiondict.list=%s 类型的维度: %s
+commands.dimensiondict.list.number=查找 (%s 个类型)
+
+commands.rcvisual.enabled='%s' 已成功启用
+commands.rcvisual.disabled='%s' 已成功禁用
+
+commands.whatisthis.none=这里什么都没有！
+commands.whatisthis.one=这是: %s
+commands.whatisthis.many=这是以下任意或全部: %s
+
+commands.rcarea.get=%s 到 %s
+commands.rcarea.select=选择此区域
+commands.rcpos.get=[%d,%d,%d]
+commands.rcchunkpos.get=[%d,%d]
+commands.rcpos.none=§o无处§r
+commands.rcsize.get=[%d,%d,%d]
+commands.rccopy.suggest=复制
+
+commands.rcsightinfo.lookup=视线信息
+commands.rcsightinfo.unknown=未知的视线 UUID！
+commands.rcsightinfo.get=%s %s, ID: %s
+commands.rcsightinfo.structure=%s %s, 种子: %s, ID: %s
+commands.rcforget.forget=遗忘 %s
+commands.rcforget.success=已遗忘 %s！
+commands.rcforgetall.success=已遗忘 %s 个结构！
+
+commands.rcremember.success=已记住 %s！
+
+commands.rclookup.reply.silent=%s: §b未激活§r, 作者: %s, 是 %s, %s
+commands.rclookup.reply.generates=%s: §b会生成§r, 作者: %s, 是 %s, %s
+commands.rclookup.reply.noauthor=§o未知§r
+commands.rclookup.reply.nolink=§o未提供链接§r
+commands.rclookup.reply.comment=注释: %s
+
+commands.rclist.previous=上一页
+commands.rclist.next=下一页
+commands.rclist.none=无结构
+
+commands.rcsearch.empty=无结果！
+commands.rcsearch.lookup=查找
+
+commands.rcdecorateone.none=未找到合适的结构！
+commands.rcretro.count=已追溯生成 %s 个区块！
+
+commands.rcsave.noregistry=没有这样的注册表 ID！
+commands.rcsave.nodirectory=没有这样的目录 ID！
+commands.rcsaveall.result=已保存 %s 个元素到 %s。%s 失败。
+commands.rcmap.nonvirtual=无法用此命令映射！
+commands.rcmap.nonvirtual.arguments=无法用这些命令参数映射！
+commands.rcmapall.result=已保存 %s 个元素到 %s。%s 失败。%s 跳过。
+
+commands.rceval.result.true=真
+commands.rceval.result.false=假
+
+inventoryGen.vanilla=原版战利品表
+inventoryGen.custom=自定义战利品表
+inventoryGen.create=创建新战利品表
+inventoryGen.none=无战利品表
+inventoryGen.mod=模组战利品表
+inventoryGen.active=%s活跃%s
+inventoryGen.inactive=%s不活跃%s
+
+reccomplex.server.status=<Recurrent Complex> 已加载 %s 个活跃结构: %s %s %s %s
+
+reccomplex.save.permission=你没有保存权限！
+reccomplex.save.failure=保存 %s 到 %s 失败
+reccomplex.save.full=%s: %s
+reccomplex.save.success=已保存 %s 到 %s
+reccomplex.save.submit=[提交]
+reccomplex.save.submit.hover=提交到仓库
+reccomplex.delete.failure=从 %s 删除 %s 失败
+reccomplex.delete.success=已从 %s 删除 %s
+
+reccomplex.configgui.title=结构生成配置
+reccomplex.configgui.ctgy.general=通用
+reccomplex.configgui.ctgy.general.tooltip=通用设置
+reccomplex.configgui.ctgy.visual=视觉
+reccomplex.configgui.ctgy.visual.tooltip=视觉设置
+reccomplex.configgui.ctgy.balancing=平衡
+reccomplex.configgui.ctgy.balancing.tooltip=影响模组平衡性的设置
+reccomplex.configgui.ctgy.controls=控制
+reccomplex.configgui.ctgy.controls.tooltip=影响控制的设置
+reccomplex.configgui.ctgy.decoration=装饰
+reccomplex.configgui.ctgy.decoration.tooltip=原版装饰覆盖设置
+
+reccomplex.structure.metadata=元数据
+reccomplex.structure.metadata.tooltip=描述结构的文本数据，<br>如作者或注释。
+reccomplex.structure.generation=生成
+reccomplex.structure.generation.tooltip=结构在世界中生成的方式。
+reccomplex.structure.transformers=变换器
+reccomplex.structure.transformers.tooltip=随机改变结构生成<br>的脚本。
+reccomplex.structure.dependencies=依赖
+reccomplex.structure.dependencies.tooltip=如果不匹配，结构将不会生成。<br>使用这个不是技术必需的，<br>但对模组化结构会有帮助。
+reccomplex.structure.orientation=朝向
+reccomplex.structure.orientation.tooltip=结构是否可以旋转或镜像。<br>当使用特定的方块实体或<br>实体时，可能需要设为 false。
+reccomplex.structure.rotatable.true=§a可旋转§r
+reccomplex.structure.rotatable.false=§7不可旋转§r
+reccomplex.structure.mirrorable.true=§a可镜像§r
+reccomplex.structure.mirrorable.false=§7不可镜像§r
+reccomplex.structure.blocking=阻挡
+reccomplex.structure.blocking.true=§a阻挡§r
+reccomplex.structure.blocking.false=§7不阻挡§r
+reccomplex.structure.blocking.tooltip=结构是否阻止其他结构<br>在同一位置生成。
+reccomplex.structure.randomrange=在两个值之间随机。
+
+reccomplex.structure.variables=本地开关
+reccomplex.structure.variables.tooltip=结构特定的开关，<br>可在结构内的环境<br>表达式中随处使用。
+reccomplex.structure.variables.id=标识符
+reccomplex.structure.variables.id.tooltip=开关的唯一标识符<br>（在表达式中使用的名称）
+reccomplex.structure.variables.chance=概率
+reccomplex.structure.variables.chance.tooltip=开关触发（→ true）的概率
+reccomplex.structure.variables.logical=逻辑
+reccomplex.structure.variables.logical.tooltip=如果开关影响放置逻辑<br>（例如迷宫出口）则为 true。<br>如果纯粹是视觉则为 false。
+reccomplex.structure.variables.condition=条件
+
+reccomplex.structure.id=结构 ID
+reccomplex.structure.id.tooltip=结构的唯一标识符。
+reccomplex.structure.directory=保存位置
+reccomplex.structure.deleteOther.true=%s删除%s对立项
+reccomplex.structure.deleteOther.false=%s保留%s对立项
+reccomplex.structure.deleteOther.tooltip=注意: %s 文件夹中的结构<br>优先于 %s 文件夹<br>中的结构加载。
+
+reccomplex.structure.generation.id=生成 ID
+reccomplex.structure.generation.id.tooltip=生成类型的标识符。<br>在结构文件中唯一。
+
+reccomplex.generationInfo.natural=自然
+reccomplex.generationInfo.natural.tooltip=在任意生物群系中随机生成
+reccomplex.generationInfo.natural.category=类别
+reccomplex.generationInfo.natural.limitations=限制
+reccomplex.generationInfo.natural.limitation.context.world=每个世界
+reccomplex.generationInfo.natural.limitation.context.dimension=每个维度
+reccomplex.generationInfo.natural.limitation.context.dimension.tooltip=结构在每个维度中<br>最多生成 x 次。
+reccomplex.generationInfo.natural.limitation.context.x_chunks=每 X 个区块
+
+reccomplex.generationInfo.mazeComponent=迷宫组件
+reccomplex.generationInfo.mazeComponent.mazeid=迷宫 ID
+reccomplex.generationInfo.mazeComponent.tooltip=迷宫中的一个房间。
+reccomplex.generationInfo.mazeComponent.title=在迷宫中: %s
+reccomplex.generationInfo.mazeComponent.rooms=房间
+reccomplex.generationInfo.mazeComponent.rooms.tooltip=此组件跨越的房间。<br>注意这些会被迷宫的房间<br>大小缩放。
+reccomplex.generationInfo.mazeComponent.exits=出口
+reccomplex.generationInfo.mazeComponent.exits.tooltip=通向此组件外部的出口。<br>注意这些会被迷宫的房间<br>大小缩放。
+reccomplex.generationInfo.mazeComponent.reachability=可达性
+reccomplex.generationInfo.mazeComponent.position.x=位置 (x)
+reccomplex.generationInfo.mazeComponent.position.x.tooltip=此出口的东西向位置。<br>注意这会被迷宫的房间<br>大小缩放。
+reccomplex.generationInfo.mazeComponent.position.y=位置 (y)
+reccomplex.generationInfo.mazeComponent.position.y.tooltip=此出口的上下向位置。<br>注意这会被迷宫的房间<br>大小缩放。
+reccomplex.generationInfo.mazeComponent.position.z=位置 (z)
+reccomplex.generationInfo.mazeComponent.position.z.tooltip=此出口的南北向位置。<br>注意这会被迷宫的房间<br>大小缩放。
+reccomplex.generationInfo.mazeComponent.path.invert=反转
+reccomplex.generationInfo.mazeComponent.path.side=方向
+
+reccomplex.generationInfo.static=固定
+reccomplex.generationInfo.static.summary.pattern=每 %s，%s 格
+reccomplex.generationInfo.static.summary.spawn=距出生点 %s，%s
+reccomplex.generationInfo.static.summary.nospawn=在 %s，%s
+reccomplex.generationInfo.static.tooltip=在特定维度中的固定位置<br>也适用于出生点结构。
+reccomplex.generationInfo.static.spawn=距出生点
+reccomplex.generationInfo.static.pattern=模式
+reccomplex.generationInfo.static.pattern.repeat.x=重复 (x)
+reccomplex.generationInfo.static.pattern.repeat.z=重复 (z)
+reccomplex.generationInfo.static.pattern.repeat.tooltip=结构再次生成的<br>方块间隔数。
+reccomplex.generationInfo.static.pattern.rshift.tooltip=结构每次放置时<br>的随机偏移。
+reccomplex.generationInfo.static.pattern.rshift.x=随机偏移 (x)
+reccomplex.generationInfo.static.pattern.rshift.z=随机偏移 (z)
+
+reccomplex.generationInfo.structureList=结构列表
+reccomplex.generationInfo.structureList.tooltip=作为结构列表的一部分<br>（在结构方块中使用）
+reccomplex.generationInfo.structureList.title=在列表中 %s
+reccomplex.generationInfo.structureList.front=正面
+reccomplex.generationInfo.structureList.id=列表 ID
+
+reccomplex.generationInfo.vanilla=在结构中
+reccomplex.generationInfo.vanilla.tooltip=作为原版结构的一部分<br>（如村庄）
+reccomplex.generationInfo.vanilla.title=在复合结构中
+reccomplex.generationInfo.vanilla.type=类型
+reccomplex.generationInfo.vanilla.type.village=村庄
+reccomplex.generationInfo.vanilla.front=正面
+reccomplex.generationInfo.vanilla.amount.pervillage=数量 (每个村庄)
+reccomplex.generationInfo.vanilla.amount.pervillage.tooltip=此结构在每<br>个村庄中的数量。
+reccomplex.generationInfo.vanilla.amount.scaled=数量 (按比例)
+reccomplex.generationInfo.vanilla.amount.scaled.tooltip=此结构在每个村庄中<br>的数量，按村庄大小比例缩放。
+
+reccomplex.generationInfo.sapling=树苗
+reccomplex.generationInfo.sapling.tooltip=作为树苗长成的树。
+reccomplex.generationInfo.sapling.title=树苗
+
+reccomplex.generationInfo.decoration=原版装饰
+reccomplex.generationInfo.decoration.tooltip=替代原版装饰条目<br>（如树木、蘑菇、仙人掌）。
+reccomplex.generationInfo.decoration.title=原版装饰
+reccomplex.generationInfo.decoration.types.tree=树木
+reccomplex.generationInfo.decoration.types.tree.tooltip=树木
+reccomplex.generationInfo.decoration.types.cactus=仙人掌
+reccomplex.generationInfo.decoration.types.cactus.tooltip=仙人掌
+reccomplex.generationInfo.decoration.types.big_mushroom=巨型蘑菇
+reccomplex.generationInfo.decoration.types.big_mushroom.tooltip=巨型蘑菇
+reccomplex.generationInfo.decoration.types.desert_well=沙漠水井
+reccomplex.generationInfo.decoration.types.desert_well.tooltip=在沙漠中生成的水井
+reccomplex.generationInfo.decoration.types.fossil=化石
+reccomplex.generationInfo.decoration.types.fossil.tooltip=化石
+reccomplex.generationInfo.decoration.types.ocean_monument=海底神殿
+reccomplex.generationInfo.decoration.types.ocean_monument.tooltip=带有守卫者、海晶灯和<br>海晶石的海底神殿。
+reccomplex.generationInfo.decoration.types.scattered_feature=分散特征
+reccomplex.generationInfo.decoration.types.scattered_feature.tooltip=各种分散的特征<br>如女巫小屋。
+reccomplex.generationInfo.decoration.types.village=村庄
+reccomplex.generationInfo.decoration.types.village.tooltip=住满村民和农场的村庄。
+reccomplex.generationInfo.decoration.types.nether_bridge=下界桥梁要塞
+reccomplex.generationInfo.decoration.types.nether_bridge.tooltip=下界中充满烈焰人的<br>下界砖要塞。
+reccomplex.generationInfo.decoration.types.stronghold=要塞
+reccomplex.generationInfo.decoration.types.stronghold.tooltip=包含末地传送门的要塞。
+reccomplex.generationInfo.decoration.types.mineshaft=矿井
+reccomplex.generationInfo.decoration.types.mineshaft.tooltip=地下充满随机战利品的矿井。
+
+reccomplex.transformer.block.source.tooltip=此变换器应用于<br>结构中的方块。
+reccomplex.transformer.block.dest.tooltip=此变换器应用于<br>环境中的方块。
+
+reccomplex.transformer.id=变换器 ID
+reccomplex.transformer.id.tooltip=变换器的唯一标识符。
+
+reccomplex.transformer.multi=多重
+reccomplex.transformer.multi.condition=条件
+reccomplex.transformer.multi.tooltip=包裹多个变换器。
+reccomplex.transformer.multi.none=无变换器
+reccomplex.transformer.multi.multiple=%s 个变换器
+reccomplex.transformer.worldscript=世界脚本
+reccomplex.transformer.worldscript.tooltip=从匹配的方块运行世界脚本。
+reccomplex.transformer.villagereplace=村庄特定
+reccomplex.transformer.villagereplace.tooltip=将所有适用方块替换<br>为村庄原生的<br>版本。
+
+reccomplex.transformer.natural=天然地面
+reccomplex.transformer.natural.tooltip=在方块下方生成生物群系原生的地面方块
+reccomplex.transformer.natural.naturalExpansionDistance=距离
+reccomplex.transformer.natural.naturalExpansionDistance.tooltip=半径（格）。
+reccomplex.transformer.natural.naturalExpansionRandomization=随机化
+reccomplex.transformer.natural.naturalExpansionRandomization.tooltip=距离的随机化量。
+
+reccomplex.transformer.naturalAir=自然空气
+reccomplex.transformer.naturalAir.tooltip=在方块周围创建空气空洞
+reccomplex.transformer.naturalAir.naturalExpansionDistance=距离
+reccomplex.transformer.naturalAir.naturalExpansionDistance.tooltip=半径（格）。
+reccomplex.transformer.naturalAir.naturalExpansionRandomization=随机化
+reccomplex.transformer.naturalAir.naturalExpansionRandomization.tooltip=距离的随机化量。
+
+reccomplex.transformer.pillar=柱子
+reccomplex.transformer.pillar.dest.block=目标方块
+reccomplex.transformer.pillar.dest.metadata=目标元数据
+reccomplex.transformer.pillar.tooltip=向下构建柱子直到地面
+reccomplex.transformer.pillar.generateUpwards=方向
+reccomplex.transformer.pillar.generateUpwards.true=向上（悬挂）
+reccomplex.transformer.pillar.generateUpwards.false=向下（站立）
+reccomplex.transformer.replaceAll=替换
+reccomplex.transformer.replaceAll.tooltip=在生成时替换方块
+reccomplex.transformer.replace.uniformity.true=统一
+reccomplex.transformer.replace.uniformity.false=各自不同
+reccomplex.transformer.replace.uniformity.tooltip=是否所有方块应该<br>被同一个方块替换。
+reccomplex.transformer.replace.destinations=替换为
+
+reccomplex.transformer.ruins=废墟
+reccomplex.transformer.ruins.tooltip=解构并腐蚀结构
+reccomplex.transformer.ruins.decay.title=衰变
+reccomplex.transformer.ruins.decay.base=基础衰变
+reccomplex.transformer.ruins.decay.base.tooltip=结构生成时将被<br>删除的方块数量。
+reccomplex.transformer.ruins.decay.chaos=混乱度
+reccomplex.transformer.ruins.decay.chaos.tooltip=同一结构内衰变<br>差异的程度。
+reccomplex.transformer.ruins.decay.density=密度
+reccomplex.transformer.ruins.decay.density.tooltip=不同衰变进程的密度。<br>简言之，设低=大洞，<br>设高=小洞。
+reccomplex.transformer.ruins.decay.direction=方向
+reccomplex.transformer.ruins.decay.direction.tooltip=衰变发生的方向。
+reccomplex.transformer.ruins.other.title=其他
+reccomplex.transformer.ruins.erosion=侵蚀
+reccomplex.transformer.ruins.erosion.tooltip=每个方块被替换为<br>'损坏'版本的概率。
+reccomplex.transformer.ruins.vines=藤蔓生长
+reccomplex.transformer.ruins.vines.tooltip=藤蔓和苔藓在<br>每个方块上生成的概率。
+reccomplex.transformer.ruins.cobwebs=蜘蛛网生长
+reccomplex.transformer.ruins.cobwebs.tooltip=蜘蛛网在角落形成的概率。
+reccomplex.transformer.ruins.gravity=重力
+reccomplex.transformer.ruins.gravity.tooltip=漂浮的方块在<br>生成时掉落。
+
+reccomplex.transformer.negativeSpace=负空间
+reccomplex.transformer.negativeSpace.tooltip=使生成忽略方块
+
+reccomplex.transformer.ensureBlocks=确保方块
+reccomplex.transformer.ensureBlocks.tooltip=如果任何放置的方块<br>没有空间，则取消生成。
+reccomplex.transformer.ensureBlocks.dest=确保
+
+reccomplex.transformer.propertyReplace=替换属性
+reccomplex.transformer.propertyReplace.tooltip=搜索方块状态中的特定<br>属性并将其替换为<br>给定值。
+reccomplex.transformer.propertyReplace.id=属性 ID
+reccomplex.transformer.propertyReplace.value=属性值
+
+reccomplex.expression.biome=生物群系表达式
+reccomplex.expression.biome.tooltip=这是一个 §o生物群系表达式§r。<br>访问 Wiki 获取语法信息。
+reccomplex.expression.dimension=维度表达式
+reccomplex.expression.dimension.tooltip=这是一个 §o维度表达式§r。<br>访问 Wiki 获取语法信息。
+reccomplex.expression.block=方块表达式
+reccomplex.expression.block.tooltip=这是一个 §o方块表达式§r。<br>访问 Wiki 获取语法信息。
+reccomplex.expression.positioned_block=定位方块表达式
+reccomplex.expression.positioned_block.tooltip=这是一个 §o定位方块表达式§r。<br>访问 Wiki 获取语法信息。
+reccomplex.expression.dependency=依赖表达式
+reccomplex.expression.dependency.tooltip=这是一个 §o依赖表达式§r。<br>访问 Wiki 获取语法信息。
+reccomplex.expression.environment=环境表达式
+reccomplex.expression.environment.tooltip=这是一个 §o环境表达式§r。<br>访问 Wiki 获取语法信息。
+
+reccomplex.direction.up=上 (+Y)
+reccomplex.direction.down=下 (-Y)
+reccomplex.direction.north=北 (-Z)
+reccomplex.direction.south=南 (+Z)
+reccomplex.direction.east=东 (+X)
+reccomplex.direction.west=西 (-X)
+reccomplex.direction.none=无
+reccomplex.direction.all=所有方向
+reccomplex.direction.random=随机
+
+reccomplex.maze=迷宫
+reccomplex.maze.id=迷宫 ID
+reccomplex.maze.rooms.size.x=房间大小 (x)
+reccomplex.maze.rooms.size.y=房间大小 (y)
+reccomplex.maze.rooms.size.z=房间大小 (z)
+reccomplex.maze.connector=连接器
+reccomplex.maze.connector.tooltip=连接器的 ID。<br>工作方式类似电子连接器。<br><br>§b雌雄同体§r (默认): 连接自身。<br><br>如果 ID 以以下开头...<br>§bMale:§r 连接雌性对应方。<br>§bFemale:§r 连接雄性对应方。
+reccomplex.maze.connector.default=默认连接器
+reccomplex.maze.conditional_connectors=变体
+reccomplex.maze.conditional_connectors.tooltip=满足某些条件时<br>使用的连接器。
+reccomplex.maze.conditional_connector.condition=条件
+
+reccomplex.selection.area.additive=添加
+reccomplex.selection.area.subtractive=减去
+reccomplex.selection.area.range.x=范围 (x)
+reccomplex.selection.area.range.x.tooltip=此范围的东西向位置。
+reccomplex.selection.area.range.y=范围 (y)
+reccomplex.selection.area.range.y.tooltip=此范围的上下向位置。
+reccomplex.selection.area.range.z=范围 (z)
+reccomplex.selection.area.range.z.tooltip=此范围的南北向位置。
+reccomplex.selection.area.identifier=标识符
+
+reccomplex.reachability.tooltip=描述此迷宫组件<br>各出口之间的可达性。
+reccomplex.reachability.groups=分组
+reccomplex.reachability.groups.tooltip=一个组中的所有路径<br>彼此之间可达。
+reccomplex.reachability.groups.default=默认 (无分组)
+reccomplex.reachability.groups.default.behavior=默认行为
+reccomplex.reachability.groups.default.behavior.tooltip=未分组的路径应如何处理。
+reccomplex.reachability.groups.group=分组 %s
+reccomplex.reachability.groups.previous=上一组
+reccomplex.reachability.groups.next=下一组
+reccomplex.reachability.groups.new=新建组
+reccomplex.reachability.crossconnections=交叉连接
+reccomplex.reachability.crossconnections.tooltip=不同组之间<br>路径的单向连接。
+
+reccomplex.mazerule.connect=连接
+reccomplex.mazerule.connect.tooltip=确保两个出口之间的路径。
+reccomplex.mazerule.connectall=连接全部
+reccomplex.mazerule.connectall.tooltip=确保所有出口之间的路径。
+
+reccomplex.mazerule.connect.prevent=阻止连接
+reccomplex.mazerule.connect.ensure=确保连接
+reccomplex.mazerule.connect.start=起点
+reccomplex.mazerule.connect.start.tooltip=将这些中的任一个<br>连接到任一终点。
+reccomplex.mazerule.connect.end=终点
+reccomplex.mazerule.connect.end.tooltip=将这些中的任一个<br>连接到任一起点。
+reccomplex.mazerule.connectall.additive=添加
+reccomplex.mazerule.connectall.subtractive=减去
+reccomplex.mazerule.connectall.preview=预览
+
+reccomplex.worldscript.command=运行命令
+reccomplex.worldscript.command.tooltip=运行原版命令
+reccomplex.worldscript.multi=多重
+reccomplex.worldscript.multi.tooltip=连续运行多个命令。
+reccomplex.worldscript.multi.none=无脚本
+reccomplex.worldscript.multi.multiple=%s 个脚本
+reccomplex.worldscript.multi.condition=条件
+reccomplex.worldscript.mazeGen=生成迷宫
+reccomplex.worldscript.mazeGen.rules=规则
+reccomplex.worldscript.mazeGen.tooltip=从加权组件生成迷宫。
+reccomplex.worldscript.strucGen=生成结构
+reccomplex.worldscript.strucGen.tooltip=从加权选项中生成结构。
+reccomplex.worldscript.strucGen.mode.simple=简单模式
+reccomplex.worldscript.strucGen.simple.generators=生成器
+reccomplex.worldscript.strucGen.simple.generators.tooltip=逗号分隔的结构 ID<br>示例: §o塔楼红,塔楼蓝,塔楼黄§r
+reccomplex.worldscript.strucGen.mode.list.id=列表 ID
+reccomplex.worldscript.strucGen.mode.list.front=正面
+reccomplex.worldscript.strucGen.rotation.random=随机 (如可旋转)
+reccomplex.worldscript.strucGen.mirror.random=随机 (如可镜像)
+
+reccomplex.worldscript.holder=持有者
+reccomplex.worldscript.holder.tooltip=持有区域的脚本，<br>在结构生成时将从<br>脚本中生成。<br>对于复杂用例，请改用<br>列表生成。
+reccomplex.worldscript.holder.capture=§a复制区域
+reccomplex.worldscript.holder.delete=§c删除持有区域
+reccomplex.worldscript.holder.switch=§b交换区域
+reccomplex.worldscript.holder.holder.tooltip=在两个设置之间交换方块区域。
+reccomplex.worldscript.holder.point.1=位置 1
+reccomplex.worldscript.holder.point.1.tooltip=区域的第一个点。
+reccomplex.worldscript.holder.point.2=位置 2
+reccomplex.worldscript.holder.point.2.tooltip=区域的第二个点。
+reccomplex.worldscript.holder.self=自身方块
+reccomplex.worldscript.holder.self.tooltip=放置在此脚本位置<br>的方块。
+
+reccomplex.gui.list.noelements=无元素
+reccomplex.gui.true=真
+reccomplex.gui.false=假
+
+reccomplex.gui.random.weight=权重
+reccomplex.gui.random.weight.default.short=D
+reccomplex.gui.random.weight.custom.short=C
+reccomplex.gui.random.weight.tooltip=此元素随机选择的权重。<br>§a概率 = 权重 / 总权重§r<br>换言之，两倍权重意味着<br>两倍可能性。<br>设为 D 使用默认值。
+
+reccomplex.gui.block=方块
+reccomplex.gui.blocks=方块
+reccomplex.gui.metadata=元数据
+reccomplex.gui.add=添加
+reccomplex.gui.remove=移除
+reccomplex.gui.save=保存
+reccomplex.gui.edit=编辑
+reccomplex.gui.apply=应用
+reccomplex.gui.later=后移
+reccomplex.gui.earlier=前移
+reccomplex.gui.hidegui=隐藏 GUI
+reccomplex.gui.visualizegui=可视化
+reccomplex.gui.randomize=随机
+reccomplex.gui.randomize.short=??
+reccomplex.gui.biomes=生物群系
+reccomplex.gui.dimensions=维度
+reccomplex.gui.environment=环境
+reccomplex.gui.source=来源
+reccomplex.gui.sources=来源
+reccomplex.gui.destination=目标
+reccomplex.gui.destinations=目标
+reccomplex.gui.command=命令
+reccomplex.gui.custom=自定义
+reccomplex.gui.customize=自定义
+reccomplex.gui.reset=重置
+gui.back.page=返回 §7(%s)
+
+reccomplex.rotation=旋转
+reccomplex.mirror=镜像
+reccomplex.rotation.clockwise.0=无旋转
+reccomplex.rotation.clockwise.1=顺时针 90°
+reccomplex.rotation.clockwise.2=顺时针 180°
+reccomplex.rotation.clockwise.3=顺时针 270°
+
+reccomplex.preset=预设
+reccomplex.preset.save=§a保存§r为 §b预设
+reccomplex.preset.id=ID
+reccomplex.preset.id.tooltip=预设的唯一标识符
+reccomplex.preset.title=标题
+reccomplex.preset.title.tooltip=预设的可见标题
+reccomplex.preset.description=描述
+reccomplex.preset.description.tooltip=预设的可见描述。<br>使用 <BR> 换行。
+reccomplex.preset.use=使用: §b%s
+reccomplex.preset.use.default=使用: §a%s
+reccomplex.preset.customize=自定义: §b%s
+reccomplex.presets=预设
+
+reccomplex.gui.inventorygen.minMax=最小: %s, 最大: %s
+reccomplex.gui.inventorygen.minMaxItems=最少物品: %s, 最多物品: %s
+reccomplex.gui.inventorygen.range=最小 - 最大
+reccomplex.gui.inventorygen.weightNumber=权重: %s
+reccomplex.gui.inventorygen.componentid=组件 ID
+reccomplex.gui.inventorygen.componentid.tooltip=此组件的唯一 ID。
+reccomplex.gui.inventorygen.groupid=组 ID
+reccomplex.gui.inventorygen.groupid.tooltip=此组件的共享组 ID。<br>使用此 ID 的所有组件<br>将以此名称添加到<br>战利品表中。
+reccomplex.inventorygen.dependencies=依赖
+reccomplex.inventorygen.dependencies.tooltip=如果不匹配，战利品表将不会激活。<br>使用这个不是技术必需的，<br>但对模组化结构会有帮助。
+reccomplex.gui.inventorygen.items.summary=%s 个物品
+reccomplex.gui.inventorygen.componentid=组件 ID
+reccomplex.gui.inventorygen.groupid=组 ID
+reccomplex.gui.inventorygen.multi.count=物品数量
+reccomplex.gui.inventorygen.single.chance=物品概率
+
+gui.tweakStructures.generate=生成
+gui.tweakStructures.generate.tooltip=生成此结构。
+
+reccomplex.gui.blockpos=位置
+reccomplex.gui.blockpos.tooltip=坐标 x、y 和 z。
+reccomplex.gui.blockpos.x=x
+reccomplex.gui.blockpos.y=y
+reccomplex.gui.blockpos.z=z
+
+reccomplex.gui.surfacepos=位置
+reccomplex.gui.surfacepos.tooltip=坐标 x 和 z。
+reccomplex.gui.surfacepos.x=x
+reccomplex.gui.surfacepos.z=z
+
+reccomplex.gui.blockpos.shift=偏移
+reccomplex.gui.blockpos.shift.tooltip=位置移动 x、y、z。
+
+reccomplex.tileentity.nbt=方块实体 NBT
+
+reccomplex.placer=放置器
+reccomplex.placer.tooltip=决定生成<br>高度。
+reccomplex.placer.baseline=基线
+reccomplex.placer.baseline.tooltip=结构中地表的高度。<br>'0' 意味着第一行<br>方块在地表高度。
+
+reccomplex.placer.factor.priority=优先级
+reccomplex.placer.factor.priority.tooltip=此因素被考虑的<br>优先级。<br>此值被输入到幂尺度中:<br>权重 ^ 优先级
+
+reccomplex.placer.factors.limit=限制
+reccomplex.placer.factors.limit.tooltip=将放置限制在特定高度。<br>投射射线设置通过地形的<br>接受度直到命中。
+reccomplex.placer.factors.limit.ray.weight=接受度
+reccomplex.placer.factors.limit.ray.weight.tooltip=此区域被接受的比例。<br>（例如 0 = 不在此生成，1 = 在此生成）。<br>设为忽略则只移动<br>不改变接受度。
+
+reccomplex.placer.factors.limit.rays.move=移动
+reccomplex.placer.factors.limit.rays.move.tooltip=移动指定数量的方块。
+reccomplex.placer.factors.limit.rays.move.title=移动
+reccomplex.placer.factors.limit.rays.move.title.mark=标记
+reccomplex.placer.factors.limit.rays.move.tooltip=向上或向下移动指定距离
+reccomplex.placer.factors.limit.rays.move.distance=距离
+
+reccomplex.placer.factors.limit.rays.dynpos=动态位置
+reccomplex.placer.factors.limit.rays.dynpos.tooltip=移动到特定位置。
+reccomplex.placer.factors.limit.rays.dynpos.type=位置
+reccomplex.placer.factors.limit.rays.dynpos.type.bedrock=基岩
+reccomplex.placer.factors.limit.rays.dynpos.type.bedrock.tooltip=世界底部: y=0
+reccomplex.placer.factors.limit.rays.dynpos.type.sealevel=海平面
+reccomplex.placer.factors.limit.rays.dynpos.type.sealevel.tooltip=海洋高度: y=63
+reccomplex.placer.factors.limit.rays.dynpos.type.world_height=顶部 (世界高度)
+reccomplex.placer.factors.limit.rays.dynpos.type.world_height.tooltip=世界顶部:<br>y = 255 - 结构高度
+
+reccomplex.placer.factors.limit.rays.dynmove=动态移动
+reccomplex.placer.factors.limit.rays.dynmove.tooltip=移动动态数量的方块
+reccomplex.placer.factors.limit.rays.dynmove.type=数量
+reccomplex.placer.factors.limit.rays.dynmove.type.structure_height=结构高度
+reccomplex.placer.factors.limit.rays.dynmove.type.structure_height.tooltip=生成结构的高度
+
+reccomplex.placer.factors.limit.rays.matcher=查找器
+reccomplex.placer.factors.limit.rays.matcher.tooltip=移动直到地形满足<br>设定的条件。
+reccomplex.placer.factors.limit.rays.matcher.condition=条件
+reccomplex.placer.factors.limit.rays.matcher.direction=射线方向
+reccomplex.placer.factors.limit.rays.matcher.ratio=所需比例
+reccomplex.placer.factors.limit.rays.matcher.ratio.tooltip=射线停止前所需<br>匹配方块的比例。
+
+reccomplex.placer.factors.limit.rays.average=地表查找器
+reccomplex.placer.factors.limit.rays.average.tooltip=找到满足条件的平均<br>地表高度，如果地表变化太大<br>则跳过偏移。
+
+reccomplex.placer.factors.match=匹配
+reccomplex.placer.factors.match.tooltip=确保结构中的特定方块<br>有适合生成的<br>地形。
+reccomplex.placer.factors.match.dest=确保
+reccomplex.placer.factors.match.conformity=所需一致性
+reccomplex.placer.factors.match.conformity.tooltip=允许结构生成所需<br>的匹配一致性程度。
+
+reccomplex.spawncommand.preset.entity=生成实体
+
+reccomplex.blockpattern=方块模式
+reccomplex.blockpattern.pattern=模式
+reccomplex.blockpattern.pattern.tooltip=生成所需的<br>方块模式/形状。
+reccomplex.blockpattern.ingredients=成分
+reccomplex.blockpattern.ingredients.tooltip=模式中使用<br>的方块信息。
+reccomplex.blockpattern.ingredient.identifier=标识符
+reccomplex.blockpattern.ingredient.delete=删除方块
+
+reccomplex.parameters.pos.x=x
+reccomplex.parameters.pos.y=y
+reccomplex.parameters.pos.z=z
+reccomplex.parameters.biome=维度
+reccomplex.parameters.biome.type=维度
+reccomplex.parameters.dimension=维度
+reccomplex.parameters.block=维度
+reccomplex.parameters.command=维度
+reccomplex.parameters.command.arguments=维度
+reccomplex.parameters.entity=维度
+reccomplex.parameters.rotation=维度

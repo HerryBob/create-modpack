@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:whale_shark_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:whale_shark"
+  }
+}

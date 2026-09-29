@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:blobfish",
+          "weight": 28
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:axolotl_bucket",
+          "weight": 22
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/lush_cave_fish"
+}

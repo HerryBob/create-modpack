@@ -1,0 +1,21 @@
+{
+  "name": "book.kubejs.survival_guide.entry.daynight.name",
+  "description": "book.kubejs.survival_guide.entry.daynight.description",
+  "icon": "minecraft:clock",
+  "category": "kubejs:world_observations",
+  "sort_number": 2,
+  "x": 2,
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.daynight.page1.title",
+      "text": "book.kubejs.survival_guide.entry.daynight.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.daynight.page2.title",
+      "text": "book.kubejs.survival_guide.entry.daynight.page2.text"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "key.categories.walljump": "攀墙",
+  "key.walljump.walljump": "攀墙 / 滑墙",
+  "enchantment.walljump.wall_jump": "攀墙",
+  "enchantment.walljump.double_jump": "二段跳",
+  "enchantment.walljump.speed_boost": "速度提升",
+  "enchantment.walljump.wall_jump.desc": "从一面墙跳到另一面墙",
+  "enchantment.walljump.double_jump.desc": "在半空中二段跳",
+  "enchantment.walljump.speed_boost.desc": "提升冲刺的速度"
+}

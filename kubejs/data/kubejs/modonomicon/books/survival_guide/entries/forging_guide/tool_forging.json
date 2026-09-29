@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.tool_forging.name",
+  "description": "book.kubejs.survival_guide.entry.tool_forging.description",
+  "icon": "overgeared:steel_pickaxe",
+  "category": "kubejs:forging_guide",
+  "sort_number": 4,
+  "x": 0,
+  "y": 6,
+  "parents": [
+    {
+      "entry": "forging_guide/armor_forging"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.tool_forging.page1.title",
+      "text": "book.kubejs.survival_guide.entry.tool_forging.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.tool_forging.page2.title",
+      "text": "book.kubejs.survival_guide.entry.tool_forging.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.tool_forging.page3.title",
+      "text": "book.kubejs.survival_guide.entry.tool_forging.page3.text"
+    }
+  ]
+}

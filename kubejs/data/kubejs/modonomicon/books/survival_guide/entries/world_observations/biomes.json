@@ -1,0 +1,21 @@
+{
+  "name": "book.kubejs.survival_guide.entry.biomes.name",
+  "description": "book.kubejs.survival_guide.entry.biomes.description",
+  "icon": "minecraft:grass_block",
+  "category": "kubejs:world_observations",
+  "sort_number": 3,
+  "x": 4,
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.biomes.page1.title",
+      "text": "book.kubejs.survival_guide.entry.biomes.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.biomes.page2.title",
+      "text": "book.kubejs.survival_guide.entry.biomes.page2.text"
+    }
+  ]
+}

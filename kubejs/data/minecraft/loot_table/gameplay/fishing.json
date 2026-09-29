@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "quality": -2,
+          "value": "minecraft:gameplay/fishing/junk",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            }
+          ],
+          "quality": 2,
+          "value": "minecraft:gameplay/fishing/treasure",
+          "weight": 0
+        },
+        {
+          "type": "minecraft:loot_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "minecraft:fishing_hook",
+                  "in_open_water": true
+                }
+              }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": [
+                  "minecraft:ocean",
+                  "minecraft:cold_ocean",
+                  "minecraft:lukewarm_ocean",
+                  "minecraft:warm_ocean",
+                  "minecraft:frozen_ocean",
+                  "minecraft:deep_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_lukewarm_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "terralith:alpha_islands",
+                  "terralith:alpha_islands_winter",
+                  "terralith:mirage_isles",
+                  "terralith:deep_warm_ocean"
+                ]
+              }
+            }
+          ],
+          "quality": 3,
+          "value": "minecraft:gameplay/fishing/amazing",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "quality": -1,
+          "value": "minecraft:gameplay/fishing/fish",
+          "weight": 85
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

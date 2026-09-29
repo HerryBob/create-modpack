@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [{"bonus_rolls": 0.0,"entries": [
+    { "type": "minecraft:item", "name": "minecraft:stick", "weight": 16 },
+    { "type": "minecraft:item", "name": "minecraft:bone", "weight": 16 },
+    { "type": "minecraft:item", "name": "minecraft:string", "weight": 10 },
+    { "type": "minecraft:item", "name": "minecraft:bowl", "weight": 10 },
+    { "type": "minecraft:item", "name": "minecraft:dead_bush", "weight": 18 },
+    { "type": "minecraft:item", "name": "minecraft:sand", "weight": 12 },
+    { "type": "minecraft:item", "name": "minecraft:cactus", "weight": 8 },
+    { "type": "minecraft:item", "name": "minecraft:glass_bottle", "weight": 10 }
+  ],"rolls": 1.0}],
+  "random_sequence": "createae2:gameplay/fishing/biomes/desert_junk"
+}

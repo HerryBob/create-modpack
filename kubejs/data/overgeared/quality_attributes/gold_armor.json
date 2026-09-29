@@ -1,0 +1,16 @@
+{
+  "attribute": "minecraft:generic.armor",
+  "targets": [
+    {"type": "item", "id": "minecraft:golden_helmet"},
+    {"type": "item", "id": "minecraft:golden_chestplate"},
+    {"type": "item", "id": "minecraft:golden_leggings"},
+    {"type": "item", "id": "minecraft:golden_boots"}
+  ],
+  "qualities": {
+    "poor":    {"operation": "add", "amount": -1.0},
+    "well":    {"operation": "add", "amount":  0.0},
+    "expert":  {"operation": "add", "amount":  1.5},
+    "perfect": {"operation": "add", "amount":  2.5},
+    "master":  {"operation": "add", "amount":  4.0}
+  }
+}

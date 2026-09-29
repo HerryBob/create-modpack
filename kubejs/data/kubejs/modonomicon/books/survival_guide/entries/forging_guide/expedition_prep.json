@@ -1,0 +1,26 @@
+{
+  "name": "book.kubejs.survival_guide.entry.expedition_prep.name",
+  "description": "book.kubejs.survival_guide.entry.expedition_prep.description",
+  "icon": "minecraft:bundle",
+  "category": "kubejs:forging_guide",
+  "sort_number": 5,
+  "x": 0,
+  "y": 8,
+  "parents": [
+    {
+      "entry": "forging_guide/tool_forging"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.expedition_prep.page1.title",
+      "text": "book.kubejs.survival_guide.entry.expedition_prep.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.expedition_prep.page2.title",
+      "text": "book.kubejs.survival_guide.entry.expedition_prep.page2.text"
+    }
+  ]
+}

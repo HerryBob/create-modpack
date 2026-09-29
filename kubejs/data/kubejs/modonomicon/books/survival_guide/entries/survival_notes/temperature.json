@@ -1,0 +1,51 @@
+{
+  "name": "book.kubejs.survival_guide.entry.temperature.name",
+  "description": "book.kubejs.survival_guide.entry.temperature.description",
+  "icon": "minecraft:campfire",
+  "category": "kubejs:survival_notes",
+  "sort_number": 2,
+  "x": 0,
+  "y": 2,
+  "parents": [
+    {
+      "entry": "survival_notes/welcome"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page1.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page2.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page3.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page4.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page4.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page5.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page5.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page6.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page6.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.temperature.page7.title",
+      "text": "book.kubejs.survival_guide.entry.temperature.page7.text"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:blobfish",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:tuna",
+          "weight": 40
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:opah",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:triggerfish",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:lantern_shark_spawn_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:spider_crab_spawn_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:decorator_crab_spawn_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:karkinos_spawn_egg",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/deep_ocean_fish"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_alligator_snapping_turtle",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_caiman",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_crocodile",
+          "weight": 14
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/swamp_fish"
+}

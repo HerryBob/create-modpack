@@ -1,0 +1,78 @@
+{
+  "name": "safe_village:plains/houses",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "location": "safe_village:plains/guild",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "safe_village:plains/cottage_a",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "safe_village:plains/cottage_b",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "safe_village:plains/cottage_c",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "safe_village:plains/tavern",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "safe_village:plains/smithy",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "safe_village:plains/farmhouse",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "safe_village:plains/barn",
+        "processors": "minecraft:mossify_10_percent",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

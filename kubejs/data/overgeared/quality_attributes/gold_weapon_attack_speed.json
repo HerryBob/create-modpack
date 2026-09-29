@@ -1,0 +1,17 @@
+{
+  "attribute": "minecraft:generic.attack_speed",
+  "targets": [
+    {"type": "item", "id": "minecraft:golden_sword"},
+    {"type": "item", "id": "minecraft:golden_axe"},
+    {"type": "item", "id": "minecraft:golden_pickaxe"},
+    {"type": "item", "id": "minecraft:golden_shovel"},
+    {"type": "item", "id": "minecraft:golden_hoe"}
+  ],
+  "qualities": {
+    "poor":    {"operation": "add", "amount": 0.0},
+    "well":    {"operation": "add", "amount": 0.0},
+    "expert":  {"operation": "add", "amount": 0.3},
+    "perfect": {"operation": "add", "amount": 0.5},
+    "master":  {"operation": "add", "amount": 0.8}
+  }
+}

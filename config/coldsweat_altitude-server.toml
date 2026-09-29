@@ -1,0 +1,244 @@
+# Cold Sweat: Altitude server config
+# Temperature values are applied through Cold Sweat's WORLD temperature modifiers.
+# Band id is a user-defined stable name used by commands, logs, messages, and runtime state.
+# Leave maxY unset to make a band open-ended upward.
+# These defaults are intended for a mostly vanilla-style overworld height range.
+# Aeronautics heat-source tuning applies to both normal world blocks and Sable ship interiors.
+# Performance guard: shelterCheckRadius and Aeronautics heat ranges above 16 are rewritten to 16 when loaded.
+
+aeronauticsBurnerHeat = 0.14
+aeronauticsBurnerRange = 7.0
+aeronauticsSteamVentHeat = 0.12
+aeronauticsSteamVentRange = 8.0
+
+[[bands]]
+id = "deep_caves"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = -64
+maxY = 0
+temperatureModifier = 0.08
+modifierMode = "ADD"
+priority = 10
+# Use plain text:
+# onEnterMessage = "The cave air feels warmer here."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.deep_caves.on_enter"
+onEnterMessage = ""
+# Use plain text:
+# actionbarMessage = "Deep cave warmth"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.deep_caves.actionbar"
+actionbarMessage = ""
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = false
+shelterCheckRadius = 4
+shelterReduction = 0.0
+
+[[bands]]
+id = "underground"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 1
+maxY = 63
+temperatureModifier = 0.03
+modifierMode = "ADD"
+priority = 5
+# Use plain text:
+# onEnterMessage = "The underground air is calm."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.underground.on_enter"
+onEnterMessage = ""
+# Use plain text:
+# actionbarMessage = "Underground air"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.underground.actionbar"
+actionbarMessage = ""
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = false
+shelterCheckRadius = 4
+shelterReduction = 0.0
+
+[[bands]]
+id = "surface"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 64
+maxY = 159
+temperatureModifier = 0.0
+modifierMode = "ADD"
+priority = 0
+# Use plain text:
+# onEnterMessage = "You return to the surface."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.surface.on_enter"
+onEnterMessage = ""
+# Use plain text:
+# actionbarMessage = "Surface conditions"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.surface.actionbar"
+actionbarMessage = ""
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = false
+shelterCheckRadius = 4
+shelterReduction = 0.0
+
+[[bands]]
+id = "highlands"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 160
+maxY = 239
+temperatureModifier = -0.04
+modifierMode = "ADD"
+priority = 10
+# Use plain text:
+# onEnterMessage = "The upland air feels cooler."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.highlands.on_enter"
+onEnterMessage = ""
+# Use plain text:
+# actionbarMessage = "Cool upland air"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.highlands.actionbar"
+actionbarMessage = ""
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = false
+shelterCheckRadius = 4
+shelterReduction = 0.0
+
+[[bands]]
+id = "high_peaks"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 240
+maxY = 319
+temperatureModifier = -0.15
+modifierMode = "ADD"
+priority = 15
+# Use plain text:
+# onEnterMessage = "The mountain air grows colder."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.high_peaks.on_enter"
+onEnterMessage = ""
+# Use plain text:
+# actionbarMessage = "High altitude chill"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.high_peaks.actionbar"
+actionbarMessage = ""
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = true
+shelterCheckRadius = 4
+shelterReduction = 0.50
+
+[[bands]]
+id = "low_sky"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 320
+maxY = 419
+temperatureModifier = -0.27
+modifierMode = "ADD"
+priority = 20
+# Use plain text:
+# onEnterMessage = "The air grows colder at this altitude."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.low_sky.on_enter"
+onEnterMessage = "The air grows colder at this altitude."
+# Use plain text:
+# actionbarMessage = "Altitude chill"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.low_sky.actionbar"
+actionbarMessage = "Altitude chill"
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = true
+shelterCheckRadius = 4
+shelterReduction = 0.50
+
+[[bands]]
+id = "upper_sky"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 420
+maxY = 519
+temperatureModifier = -0.42
+modifierMode = "ADD"
+priority = 25
+# Use plain text:
+# onEnterMessage = "The mountain air is biting cold."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.upper_sky.on_enter"
+onEnterMessage = "The mountain air is biting cold."
+# Use plain text:
+# actionbarMessage = "Severe mountain cold"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.upper_sky.actionbar"
+actionbarMessage = "Severe mountain cold"
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = true
+shelterCheckRadius = 4
+shelterReduction = 0.50
+
+[[bands]]
+id = "extreme_sky"
+enabled = true
+dimensions = ["minecraft:overworld"]
+dimensionMode = "WHITELIST"
+minY = 520
+maxY = 4096
+temperatureModifier = -0.60
+modifierMode = "ADD"
+priority = 30
+# Use plain text:
+# onEnterMessage = "The air grows thin and bitter."
+# Use a translation key instead:
+# onEnterMessage = "coldsweat_altitude.band.extreme_sky.on_enter"
+onEnterMessage = "The air grows thin and bitter."
+# Use plain text:
+# actionbarMessage = "Extreme altitude exposure"
+# Use a translation key instead:
+# actionbarMessage = "coldsweat_altitude.band.extreme_sky.actionbar"
+actionbarMessage = "Extreme altitude exposure"
+messageCooldownTicks = 100
+protectionTag = ""
+requiredPieces = 0
+protectionReductionPerPiece = 0.0
+fullProtectionPieces = 4
+enableShelterCheck = true
+shelterCheckRadius = 4
+shelterReduction = 0.50

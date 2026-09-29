@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/snow_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:frozen_ocean","minecraft:deep_frozen_ocean","minecraft:frozen_river","minecraft:snowy_beach","minecraft:snowy_plains","minecraft:snowy_taiga","minecraft:ice_spikes","terralith:alpha_islands_winter","terralith:alpine_grove","terralith:frozen_cliffs","terralith:glacial_chasm","terralith:ice_marsh","terralith:siberian_grove","terralith:siberian_taiga","terralith:snowy_badlands","terralith:snowy_cherry_grove","terralith:snowy_maple_forest","terralith:snowy_shield","terralith:wintry_forest","terralith:wintry_lowlands"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/ocean_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:ocean","minecraft:cold_ocean","minecraft:lukewarm_ocean","terralith:alpha_islands"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/beach_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:beach","minecraft:stony_shore","terralith:gravel_beach","terralith:mirage_isles"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/deep_ocean_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:deep_ocean","minecraft:deep_cold_ocean","minecraft:deep_lukewarm_ocean","terralith:deep_warm_ocean"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/river_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:river","terralith:warm_river"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/swamp_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:swamp","minecraft:mangrove_swamp","terralith:orchid_swamp"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/lush_cave_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:lush_caves"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/tropical_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:warm_ocean","terralith:tropical_jungle","terralith:rocky_jungle","terralith:amethyst_rainforest"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/desert_junk", "conditions": [{ "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:desert","terralith:ancient_sands","terralith:arid_highlands","terralith:desert_canyon","terralith:desert_oasis","terralith:desert_spires","terralith:gravel_desert","terralith:lush_desert","terralith:red_oasis","terralith:sandstone_valley"] } }] },
+        { "type": "minecraft:loot_table", "value": "createae2:gameplay/fishing/biomes/default_junk", "conditions": [{ "condition": "minecraft:inverted", "term": { "condition": "minecraft:any_of", "terms": [
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:frozen_ocean","minecraft:deep_frozen_ocean","minecraft:frozen_river","minecraft:snowy_beach","minecraft:snowy_plains","minecraft:snowy_taiga","minecraft:ice_spikes","terralith:alpha_islands_winter","terralith:alpine_grove","terralith:frozen_cliffs","terralith:glacial_chasm","terralith:ice_marsh","terralith:siberian_grove","terralith:siberian_taiga","terralith:snowy_badlands","terralith:snowy_cherry_grove","terralith:snowy_maple_forest","terralith:snowy_shield","terralith:wintry_forest","terralith:wintry_lowlands"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:ocean","minecraft:cold_ocean","minecraft:lukewarm_ocean","terralith:alpha_islands"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:beach","minecraft:stony_shore","terralith:gravel_beach","terralith:mirage_isles"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:deep_ocean","minecraft:deep_cold_ocean","minecraft:deep_lukewarm_ocean","terralith:deep_warm_ocean"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:river","terralith:warm_river"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:swamp","minecraft:mangrove_swamp","terralith:orchid_swamp"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:lush_caves"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:warm_ocean","terralith:tropical_jungle","terralith:rocky_jungle","terralith:amethyst_rainforest"] } },
+          { "condition": "minecraft:location_check", "predicate": { "biomes": ["minecraft:desert","terralith:ancient_sands","terralith:arid_highlands","terralith:desert_canyon","terralith:desert_oasis","terralith:desert_spires","terralith:gravel_desert","terralith:lush_desert","terralith:red_oasis","terralith:sandstone_valley"] } }
+        ] } }] }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/junk"
+}

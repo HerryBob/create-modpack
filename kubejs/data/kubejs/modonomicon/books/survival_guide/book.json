@@ -1,0 +1,11 @@
+{
+  "name": "book.kubejs.survival_guide.name",
+  "tooltip": "book.kubejs.survival_guide.tooltip",
+  "description": "book.kubejs.survival_guide.description",
+  "display_mode": "index",
+  "generate_book_item": true,
+  "model": "modonomicon:modonomicon_green",
+  "creative_tab": "modonomicon",
+  "default_title_color": 0,
+  "auto_add_read_conditions": false
+}

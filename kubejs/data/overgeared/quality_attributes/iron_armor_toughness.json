@@ -1,0 +1,16 @@
+{
+  "attribute": "minecraft:generic.armor_toughness",
+  "targets": [
+    {"type": "item", "id": "minecraft:iron_helmet"},
+    {"type": "item", "id": "minecraft:iron_chestplate"},
+    {"type": "item", "id": "minecraft:iron_leggings"},
+    {"type": "item", "id": "minecraft:iron_boots"}
+  ],
+  "qualities": {
+    "poor":    {"operation": "add", "amount": 0.0},
+    "well":    {"operation": "add", "amount": 0.0},
+    "expert":  {"operation": "add", "amount": 0.25},
+    "perfect": {"operation": "add", "amount": 0.5},
+    "master":  {"operation": "add", "amount": 1.0}
+  }
+}

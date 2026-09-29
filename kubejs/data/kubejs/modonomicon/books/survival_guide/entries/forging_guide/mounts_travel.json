@@ -1,0 +1,26 @@
+{
+  "name": "book.kubejs.survival_guide.entry.mounts_travel.name",
+  "description": "book.kubejs.survival_guide.entry.mounts_travel.description",
+  "icon": "minecraft:saddle",
+  "category": "kubejs:forging_guide",
+  "sort_number": 8,
+  "x": 0,
+  "y": 14,
+  "parents": [
+    {
+      "entry": "forging_guide/advanced_temperature"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.mounts_travel.page1.title",
+      "text": "book.kubejs.survival_guide.entry.mounts_travel.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.mounts_travel.page2.title",
+      "text": "book.kubejs.survival_guide.entry.mounts_travel.page2.text"
+    }
+  ]
+}

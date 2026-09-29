@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:crown_jellyfish_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:crown_jellyfish"
+  }
+}

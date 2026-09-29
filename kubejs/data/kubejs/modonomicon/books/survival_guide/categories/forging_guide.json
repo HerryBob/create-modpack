@@ -1,0 +1,6 @@
+{
+  "name": "book.kubejs.survival_guide.forging_guide.name",
+  "description": "book.kubejs.survival_guide.forging_guide.description",
+  "icon": "overgeared:smithing_anvil",
+  "sort_number": 1
+}

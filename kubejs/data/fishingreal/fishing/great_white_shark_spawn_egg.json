@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:great_white_shark_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:great_white_shark"
+  }
+}

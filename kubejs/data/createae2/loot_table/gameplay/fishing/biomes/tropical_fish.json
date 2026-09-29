@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:flying_fish",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:mahi",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:lionfish",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:triggerfish",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:opah",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_mantis_shrimp",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:spider_crab_spawn_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:decorator_crab_spawn_egg",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:karkinos_spawn_egg",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/tropical_fish"
+}

@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:whale_shark_spawn_egg",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:basking_shark_spawn_egg",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:bull_shark_spawn_egg",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:great_white_shark_spawn_egg",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_hammerhead_shark",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_frilled_shark",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_orca",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_giant_squid",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_cachalot_whale",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/amazing"
+}

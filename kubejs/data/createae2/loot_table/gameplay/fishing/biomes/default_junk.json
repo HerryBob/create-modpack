@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [{"bonus_rolls": 0.0,"entries": [
+    { "type": "minecraft:item", "name": "minecraft:stick", "weight": 20 },
+    { "type": "minecraft:item", "name": "minecraft:string", "weight": 16 },
+    { "type": "minecraft:item", "name": "minecraft:bone", "weight": 14 },
+    { "type": "minecraft:item", "name": "minecraft:bowl", "weight": 10 },
+    { "type": "minecraft:item", "name": "minecraft:ink_sac", "weight": 10 },
+    { "type": "minecraft:item", "name": "minecraft:leather", "weight": 8 },
+    { "type": "minecraft:item", "name": "minecraft:kelp", "weight": 12 },
+    { "type": "minecraft:item", "name": "minecraft:seagrass", "weight": 10 }
+  ],"rolls": 1.0}],
+  "random_sequence": "createae2:gameplay/fishing/biomes/default_junk"
+}

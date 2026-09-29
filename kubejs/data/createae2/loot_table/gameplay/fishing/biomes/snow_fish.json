@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 37
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "weight": 58
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_seal",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_comb_jelly",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:crown_jellyfish_spawn_egg",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:nomura_jellyfish_spawn_egg",
+          "weight": 2
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/snow_fish"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "book.kubejs.survival_guide.world_observations.name",
+  "description": "book.kubejs.survival_guide.world_observations.description",
+  "icon": "minecraft:compass",
+  "sort_number": 2
+}

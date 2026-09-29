@@ -1,0 +1,7 @@
+{
+  "type": "farmersdelight:add_features_by_filter",
+  "allowed_biomes": "#c:is_savanna",
+  "denied_biomes": "#c:is_underground",
+  "features": "farmersdelight:patch_wild_onions_medium",
+  "step": "vegetal_decoration"
+}

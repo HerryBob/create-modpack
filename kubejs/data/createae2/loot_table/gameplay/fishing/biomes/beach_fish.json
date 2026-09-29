@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_mimic_octopus",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alexsmobs:spawn_egg_lobster",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:manta_ray_spawn_egg",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:hermit_crab_spawn_egg",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hybrid-aquatic:nautilus_spawn_egg",
+          "weight": 8
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "createae2:gameplay/fishing/biomes/beach_fish"
+}

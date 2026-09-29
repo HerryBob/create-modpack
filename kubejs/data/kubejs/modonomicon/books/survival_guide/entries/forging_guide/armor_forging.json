@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.armor_forging.name",
+  "description": "book.kubejs.survival_guide.entry.armor_forging.description",
+  "icon": "overgeared:steel_chestplate",
+  "category": "kubejs:forging_guide",
+  "sort_number": 3,
+  "x": 0,
+  "y": 4,
+  "parents": [
+    {
+      "entry": "forging_guide/blueprints"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.armor_forging.page1.title",
+      "text": "book.kubejs.survival_guide.entry.armor_forging.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.armor_forging.page2.title",
+      "text": "book.kubejs.survival_guide.entry.armor_forging.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.armor_forging.page3.title",
+      "text": "book.kubejs.survival_guide.entry.armor_forging.page3.text"
+    }
+  ]
+}

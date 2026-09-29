@@ -1,0 +1,36 @@
+{
+  "name": "book.kubejs.survival_guide.entry.food.name",
+  "description": "book.kubejs.survival_guide.entry.food.description",
+  "icon": "minecraft:cooked_beef",
+  "category": "kubejs:survival_notes",
+  "sort_number": 4,
+  "x": 0,
+  "y": 6,
+  "parents": [
+    {
+      "entry": "survival_notes/water"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.food.page1.title",
+      "text": "book.kubejs.survival_guide.entry.food.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.food.page2.title",
+      "text": "book.kubejs.survival_guide.entry.food.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.food.page3.title",
+      "text": "book.kubejs.survival_guide.entry.food.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.food.page4.title",
+      "text": "book.kubejs.survival_guide.entry.food.page4.text"
+    }
+  ]
+}

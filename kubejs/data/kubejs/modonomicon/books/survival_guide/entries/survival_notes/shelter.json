@@ -1,0 +1,31 @@
+{
+  "name": "book.kubejs.survival_guide.entry.shelter.name",
+  "description": "book.kubejs.survival_guide.entry.shelter.description",
+  "icon": "minecraft:white_bed",
+  "category": "kubejs:survival_notes",
+  "sort_number": 5,
+  "x": 0,
+  "y": 8,
+  "parents": [
+    {
+      "entry": "survival_notes/food"
+    }
+  ],
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.shelter.page1.title",
+      "text": "book.kubejs.survival_guide.entry.shelter.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.shelter.page2.title",
+      "text": "book.kubejs.survival_guide.entry.shelter.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.shelter.page3.title",
+      "text": "book.kubejs.survival_guide.entry.shelter.page3.text"
+    }
+  ]
+}

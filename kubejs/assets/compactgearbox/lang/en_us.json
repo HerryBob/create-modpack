@@ -1,0 +1,30 @@
+{
+  "itemGroup.compactgearbox": "Create: Compact Gearbox",
+  "block.compactgearbox.compact_gearbox": "Manual Gearbox",
+  "block.compactgearbox.gearbox_controller": "Manual Gear Selector",
+  "block.compactgearbox.sequential_gearbox": "Sequential Gearbox",
+
+  "compactgearbox.gui.gear": "Gear",
+  "compactgearbox.gui.ratio": "Ratio",
+  "compactgearbox.gui.save": "Save",
+  "compactgearbox.gui.clear": "X",
+  "compactgearbox.gui.up": "Up",
+  "compactgearbox.gui.down": "Down",
+  "compactgearbox.gui.current": "Current:",
+  "compactgearbox.gui.sequential_gearbox": "Sequential Gearbox",
+  "compactgearbox.gui.manual_gearbox": "Manual Gearbox",
+
+
+  "compactgearbox.tooltip.hold_shift": "§7Hold §f[Shift] §7for more info",
+  "compactgearbox.tooltip.compact_gearbox": "§6A mechanical gearbox that|§6adjusts rotational speed and|§6managed by §fManual Gear Selector||§f[Shift + RMB] §6to open Ratios menu",
+  "compactgearbox.tooltip.gearbox_controller": "§6Place only on a §fManual Gearbox||§6Hold §f[RMB] §6to shift gears||§6Release on a gear to select it||§6If missed - it sets to §fN",
+  "compactgearbox.tooltip.sequential_gearbox": "§6Sequential gearbox controlled by|§fRedstone Link||§f[Shift + RMB] §6to set frequencies and|§6gear ratios||§fUp §6frequency raises gear,|§fDown §6frequency lowers",
+
+  "compactgearbox.configuration.title": "Create Compact Gearbox Configs",
+  "compactgearbox.configuration.section.compactgearbox.common.toml": "Create Compact Gearbox Configs",
+  "compactgearbox.configuration.section.compactgearbox.common.toml.title": "Create Compact Gearbox Configs",
+  "compactgearbox.configuration.items": "Item List",
+  "compactgearbox.configuration.logDirtBlock": "Log Dirt Block",
+  "compactgearbox.configuration.magicNumberIntroduction": "Magic Number Text",
+  "compactgearbox.configuration.magicNumber": "Magic Number"
+}

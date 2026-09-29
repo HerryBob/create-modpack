@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:barracuda_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:barracuda"
+  }
+}

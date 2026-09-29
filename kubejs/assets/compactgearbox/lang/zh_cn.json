@@ -1,0 +1,29 @@
+{
+  "itemGroup.compactgearbox": "机械动力：紧凑型变速箱",
+  "block.compactgearbox.compact_gearbox": "手动变速箱",
+  "block.compactgearbox.gearbox_controller": "手动换挡器",
+  "block.compactgearbox.sequential_gearbox": "序列式变速箱",
+
+  "compactgearbox.gui.gear": "挡位",
+  "compactgearbox.gui.ratio": "传动比",
+  "compactgearbox.gui.save": "保存",
+  "compactgearbox.gui.clear": "X",
+  "compactgearbox.gui.up": "升挡",
+  "compactgearbox.gui.down": "降挡",
+  "compactgearbox.gui.current": "当前：",
+  "compactgearbox.gui.sequential_gearbox": "序列式变速箱",
+  "compactgearbox.gui.manual_gearbox": "手动变速箱",
+
+  "compactgearbox.tooltip.hold_shift": "§7按住 §f[Shift] §7查看更多信息",
+  "compactgearbox.tooltip.compact_gearbox": "§6调节旋转速度的机械变速箱，|§6由§f手动换挡器§6控制。||§f[Shift + 右键] §6打开传动比菜单",
+  "compactgearbox.tooltip.gearbox_controller": "§6只能放置在§f手动变速箱§6上。||§6按住 §f[右键] §6进行换挡。||§6在某个挡位上松开以选择该挡位。||§6如果未选中任何挡位 - 则挂入 §fN 挡（空挡）",
+  "compactgearbox.tooltip.sequential_gearbox": "§6由§f红石接收器§6控制的序列式变速箱。||§f[Shift + 右键] §6设置频道和|§6传动比。||§f升挡§6频道的信号可提升挡位，|§f降挡§6频道的信号可降低挡位",
+
+  "compactgearbox.configuration.title": "机械动力：紧凑型变速箱配置",
+  "compactgearbox.configuration.section.compactgearbox.common.toml": "机械动力：紧凑型变速箱配置",
+  "compactgearbox.configuration.section.compactgearbox.common.toml.title": "机械动力：紧凑型变速箱配置",
+  "compactgearbox.configuration.items": "物品列表",
+  "compactgearbox.configuration.logDirtBlock": "记录泥土方块",
+  "compactgearbox.configuration.magicNumberIntroduction": "魔法数字文本",
+  "compactgearbox.configuration.magicNumber": "魔法数字"
+}

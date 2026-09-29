@@ -1,0 +1,8 @@
+{
+  "input": {
+    "item": "hybrid-aquatic:basking_shark_spawn_egg"
+  },
+  "result": {
+    "id": "hybrid-aquatic:basking_shark"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "hybrid-aquatic:ha_loot_modifier",
+  "chance": 0.0,
+  "conditions": [],
+  "item_tag": "createae2:disabled_fishing_loot",
+  "tables": [
+    {
+      "data": "hybrid-aquatic:gameplay/fishing/ha_large_fish",
+      "weight": 0
+    },
+    {
+      "data": "hybrid-aquatic:gameplay/fishing/ha_medium_fish",
+      "weight": 0
+    },
+    {
+      "data": "hybrid-aquatic:gameplay/fishing/ha_small_fish",
+      "weight": 0
+    }
+  ],
+  "target": "minecraft:gameplay/fishing"
+}

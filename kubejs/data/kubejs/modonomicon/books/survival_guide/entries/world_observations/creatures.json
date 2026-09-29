@@ -1,0 +1,21 @@
+{
+  "name": "book.kubejs.survival_guide.entry.creatures.name",
+  "description": "book.kubejs.survival_guide.entry.creatures.description",
+  "icon": "minecraft:bone",
+  "category": "kubejs:world_observations",
+  "sort_number": 4,
+  "x": 6,
+  "y": 0,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.creatures.page1.title",
+      "text": "book.kubejs.survival_guide.entry.creatures.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "title": "book.kubejs.survival_guide.entry.creatures.page2.title",
+      "text": "book.kubejs.survival_guide.entry.creatures.page2.text"
+    }
+  ]
+}
